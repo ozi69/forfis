@@ -1,8 +1,8 @@
-@import url(/reset.css);
-@import url(/fonts.css);
+@import url(./reset.css);
+@import url(./fonts.css);
 
-@import url(./src/section_style/header.css);
-@import url(./src/section_style/footer.css);
+@import url(/src/section_style/header.css);
+@import url(/src/section_style/footer.css);
 
 /* section */
 @import url(./src/section_style/section__hero.css);
