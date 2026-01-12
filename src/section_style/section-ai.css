@@ -2,9 +2,13 @@
   display: flex;
   align-items: center;
   gap: 7rem;
+
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  
 }
 .contianer-ai__img {
-  width: 47rem;
+  /* width: 47rem; */
   height: 47rem;
 }
 .container-ai__content {
@@ -12,11 +16,11 @@
   flex-direction: column;
   gap: 3.2rem;
 
-  width: 58rem;
+  /* width: 58rem; */
 }
 .section-ai__head {
   .hgroup-head__title {
-    /* font-family: Heading Now bold; */
+    font-family: Heading Now extrabold;
     white-space: nowrap;
   }
 }

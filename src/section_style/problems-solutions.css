@@ -53,7 +53,7 @@
 
     border-left: 13rem solid var(--color-blue);
     border-right: 13rem solid var(--color-blue);
-    border-top: 2rem solid transparent;
+    border-top: 2rem solid var(--color-white);
   }
 }
 .solutions-card__down-hgroup {
