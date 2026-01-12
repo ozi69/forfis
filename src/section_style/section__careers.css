@@ -9,6 +9,8 @@
   flex-direction: column;
   gap: 2.4rem;
 
+  user-select: none;
+
   width: 35.6rem;
   min-width: 35.6rem;
   min-height: 30.5rem;
