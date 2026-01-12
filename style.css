@@ -1,20 +1,20 @@
-@import url(reset.css);
-@import url(fonts.css);
+@import url(./reset.css);
+@import url(./fonts.css);
 
 /* section */
-@import url(src/section_style/header.css);
-@import url(src/section_style/footer.css);
-@import url(src/section_style/section__hero.css);
-@import url(src/section_style/problems-solutions.css);
-@import url(src/section_style/section-tech.css);
-@import url(src/section_style/section-ai.css);
-@import url(src/section_style/section-case.css);
-@import url(src/section_style/section__comments.css);
-@import url(src/section_style/section__app.css);
-@import url(src/section_style/section__process.css);
-@import url(src/section_style/section__market.css);
-@import url(src/section_style/section__insights.css);
-@import url(src/section_style/section__careers.css);
+@import url(./src/section_style/header.css);
+@import url(./src/section_style/footer.css);
+@import url(./src/section_style/section__hero.css);
+@import url(./src/section_style/problems-solutions.css);
+@import url(./src/section_style/section-tech.css);
+@import url(./src/section_style/section-ai.css);
+@import url(./src/section_style/section-case.css);
+@import url(./src/section_style/section__comments.css);
+@import url(./src/section_style/section__app.css);
+@import url(./src/section_style/section__process.css);
+@import url(./src/section_style/section__market.css);
+@import url(./src/section_style/section__insights.css);
+@import url(./src/section_style/section__careers.css);
 
 /*  */
 
