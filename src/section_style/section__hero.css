@@ -1,0 +1,86 @@
+.container-hero__btn {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+
+  margin: 4rem 0;
+}
+
+
+.container-hero__btn-one {
+  
+}
+
+.container-hero__btn-two {
+
+}
+
+/* carusel */
+.carusel-container {
+  padding: 3.2rem 0;
+  overflow: hidden;
+  position: relative;
+  max-width: 192rem;
+  margin: 0 auto;
+}
+
+/* Градиент слева */
+.carusel-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 20rem;
+  background: linear-gradient(
+    to right,
+    var(--color-white) 0%,
+    transparent 100%
+  );
+  z-index: 2;
+  pointer-events: none; /* Чтобы можно было кликать сквозь градиент */
+}
+
+/* Градиент справа */
+.carusel-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 20rem;
+  background: linear-gradient(to left, var(--color-white) 0%, transparent 100%);
+  z-index: 2;
+  pointer-events: none;
+}
+
+.carusel {
+  display: flex;
+  gap: 4.8rem;
+  animation: carousel-scroll 15s linear infinite;
+}
+
+.carusel-item {
+  width: 18rem;
+  height: 4.8rem;
+  flex-shrink: 0;
+}
+
+/* Точный расчет для 13 элементов */
+@keyframes carousel-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    /* 13 элементов: 13 промежутков между ними */
+    /* Формула: (ширина элемента * количество) + (gap * (количество - 1)) */
+    /* = (18rem * 13) + (4.8rem * 13) */
+    /* = 234rem + 57.6rem = 291.6rem */
+    transform: translateX(calc(-18rem * 13 - 4.8rem * 13));
+  }
+}
+
+/* возможно придется удалить */
+/* .carusel-container:hover .carusel {
+  animation-play-state: paused;
+} */

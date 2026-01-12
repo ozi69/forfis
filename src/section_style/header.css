@@ -1,0 +1,31 @@
+header {
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-logo {
+}
+.header-logo__img {
+  width: 9.5rem;
+  height: 4.5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-nav {
+}
+.header-nav__list {
+  display: flex;
+  gap: 2.4rem;
+}
+.header-list__item {
+}
+.header-item__link {
+}
+.header-block__btn {
+}
+.btn-second {
+}

@@ -1,0 +1,363 @@
+@import url(/reset.css);
+@import url(/fonts.css);
+
+/* section */
+@import url(src/section_style/header.css);
+@import url(src/section_style/footer.css);
+@import url(src/section_style/section__hero.css);
+@import url(src/section_style/problems-solutions.css);
+@import url(src/section_style/section-tech.css);
+@import url(src/section_style/section-ai.css);
+@import url(src/section_style/section-case.css);
+@import url(src/section_style/section__comments.css);
+@import url(src/section_style/section__app.css);
+@import url(src/section_style/section__process.css);
+@import url(src/section_style/section__market.css);
+@import url(src/section_style/section__insights.css);
+@import url(src/section_style/section__careers.css);
+
+/*  */
+
+:root {
+  --color-white: white;
+  --color-black: black;
+
+  --color-text-main: #27292a;
+
+  --color-blue: #005eff;
+  --color-blue-shadow: 0 0 1.6rem 0 #0015ff40;
+
+  --color-gray-text: #636877;
+  --color-dark-text: #f2f2f2;
+  --color-stroke-light: #e9e9e9;
+  --color-primary-light: #f5f7fb;
+
+  --color-gradient: linear-gradient(180deg, #005eff 0%, #2895ff 88.89%);
+  --color-gradient-alt: linear-gradient(90deg, #005eff 0%, #2895ff 100%);
+
+  --border-r32: 3.2rem;
+  --border-r24: 2.4rem;
+  --border-r16: 1.6rem;
+  --border-r12: 1.2rem;
+  --border-r8: 0.8rem;
+}
+
+/*  */
+
+.font-heading-72 {
+  font-family: Heading Now regular;
+  letter-spacing: 0.3rem;
+  font-weight: 700;
+  font-size: 7.6rem;
+
+  line-height: 125%;
+}
+.font-heading-64 {
+  font-family: Heading Now regular;
+
+  font-weight: 700;
+  font-size: 6.4rem;
+
+  line-height: 125%;
+}
+.font-heading-40 {
+  font-family: Heading Now regular;
+
+  font-weight: 700;
+  font-size: 4rem;
+
+  line-height: 125%;
+}
+.font-heading-28 {
+  font-family: Heading Now regular;
+
+  font-weight: 700;
+  font-size: 2.8rem;
+
+  line-height: 125%;
+}
+.font-heading-24 {
+  font-family: Heading Now regular;
+
+  font-weight: 700;
+  font-size: 2.4rem;
+
+  line-height: 125%;
+}
+.font-heading-20 {
+  font-family: Heading Now regular;
+
+  font-weight: 700;
+  font-size: 2rem;
+
+  line-height: 125%;
+}
+
+/*  */
+
+.font-text-24 {
+  font-family: Roboto Condensed;
+  font-size: 2.4rem;
+
+  line-height: 125%;
+}
+.font-text-20 {
+  font-family: Roboto Condensed;
+  font-size: 2rem;
+
+  line-height: 125%;
+}
+.font-text-16 {
+  font-family: Roboto Condensed;
+  font-size: 1.6rem;
+
+  line-height: 125%;
+}
+.font-text-14 {
+  font-family: Roboto Condensed;
+  font-size: 1.6rem;
+
+  line-height: 125%;
+}
+
+/* btn */
+
+.btn-primary {
+  background-color: var(--color-blue);
+  box-shadow: var(--color-blue-shadow);
+  color: var(--color-white);
+
+  border-radius: var(--border-r8);
+  padding: 1.6rem 2.4rem;
+}
+
+.btn-primary-alt {
+  background-color: var(--color-blue);
+  box-shadow: var(--color-blue-shadow);
+  color: var(--color-white);
+
+  border-radius: var(--border-r8);
+  padding: 1.6rem 4.8rem;
+}
+
+.btn-second--header {
+  background-color: var(--color-white);
+  color: var(--color-blue);
+
+  border-radius: var(--border-r8);
+  border: 0.1rem solid var(--color-blue);
+  padding: 1rem 2.4rem;
+}
+
+/*  */
+
+.btn-second {
+  background-color: var(--color-white);
+  color: var(--color-blue);
+
+  border-radius: var(--border-r8);
+  border: 0.1rem solid var(--color-blue);
+  padding: 1.6rem 2.4rem;
+}
+.btn-second-alt {
+  background-color: var(--color-white);
+  color: var(--color-blue);
+
+  border-radius: var(--border-r8);
+  border: 0.1rem solid var(--color-blue);
+  padding: 1.6rem 3.8rem;
+}
+.btn-second-alt2 {
+  background-color: var(--color-white);
+  color: var(--color-blue);
+
+  border-radius: var(--border-r8);
+  border: 0.1rem solid var(--color-blue);
+  padding: 1.6rem 4.8rem;
+}
+.btn-second-alt3 {
+  background-color: var(--color-white);
+
+  border-radius: var(--border-r8);
+  padding: 1.6rem 4.8rem;
+}
+
+/*  */
+
+.btn-third {
+  color: var(--color-blue);
+}
+
+/*  */
+
+.page {
+  flex: 1 1 auto;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+
+  margin: 0 auto;
+}
+
+._container {
+  padding: 6.4rem 16.2rem;
+  position: relative;
+  max-width: 1920px;
+  margin: 0 auto;
+
+  @media (max-width: 767px) {
+    padding: 4rem 2rem;
+  }
+}
+
+._container-alt {
+  padding: 6.4rem 0;
+  position: relative;
+  max-width: 1920px;
+  margin: 0 auto;
+
+  @media (max-width: 767px) {
+    padding: 4rem 0;
+  }
+}
+
+.core-grab {
+  position: relative;
+
+  margin-top: 6.4rem;
+}
+.container-grab {
+  padding-inline: 7.2rem;
+
+  cursor: grab;
+
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+  display: flex;
+  gap: 2.4rem;
+
+  @media (max-width: 767px) {
+    padding-inline: 1.6rem;
+  }
+}
+
+.container-grab:active {
+  cursor: grabbing;
+}
+
+/* Градиент слева */
+.core-grab::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 20rem;
+  background: linear-gradient(
+    to right,
+    var(--color-white) 0%,
+    transparent 100%
+  );
+  z-index: 2;
+  pointer-events: none; /* Чтобы можно было кликать сквозь градиент */
+}
+
+/* Градиент справа */
+.core-grab::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 20rem;
+  background: linear-gradient(to left, var(--color-white) 0%, transparent 100%);
+  z-index: 2;
+  pointer-events: none;
+}
+
+header {
+  background-color: var(--color-white);
+
+  .header {
+    padding: 1.6rem 16.2rem;
+    margin: 0 auto;
+    max-width: 1920px;
+
+    @media (max-width: 767px) {
+      padding: 1.6rem 2rem;
+    }
+  }
+}
+
+footer {
+  background-color: var(--color-white);
+
+  .footer {
+    padding: 3.2rem 16.2rem 6.4rem;
+    margin: 0 auto;
+    max-width: 1920px;
+
+    @media (max-width: 767px) {
+      padding: 4rem 2rem 2rem;
+    }
+  }
+}
+
+/*  */
+
+.section-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+
+  .hgroup-head__up {
+    background-image: var(--color-gradient);
+    background-clip: text;
+    color: transparent;
+
+    text-transform: uppercase;
+  }
+  .hgroup-head {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  .hgroup-head__title {
+    text-align: center;
+
+    span {
+      background-image: var(--color-gradient);
+      background-clip: text;
+      color: transparent;
+    }
+  }
+  .hgroup-head__text {
+    text-align: center;
+
+    color: var(--color-gray-text);
+  }
+}
+
+.section-head__alt {
+  align-items: unset;
+
+  .hgroup-head__title {
+    text-align: unset;
+  }
+  .hgroup-head__text {
+    text-align: unset;
+  }
+}
+
+/* для кноки в конце секции */
+.section-bottom__btn {
+  margin: 6.4rem auto 0;
+  width: fit-content;
+}

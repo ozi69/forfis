@@ -1,0 +1,32 @@
+.container-process {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  margin-top: 6.4rem;
+}
+.process-card {
+  padding: 3.2rem;
+  border-right: 0.1rem solid var(--color-stroke-light);
+
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+
+  &:last-child {
+    border-right: unset;
+  }
+}
+.process-card__img {
+  width: 5.6rem;
+  height: 5.6rem;
+}
+.process-card__hgroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.process-card__hgroup-title {
+}
+.process-card__hgroup-text {
+  color: var(--color-gray-text);
+}
