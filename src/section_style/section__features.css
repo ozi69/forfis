@@ -39,7 +39,7 @@
     content: "";
     position: absolute;
     inset: -0.2rem;
-    background: url("/src/img/top.svg") center/contain no-repeat;
+    background: url("../img/top.svg") center/contain no-repeat;
     transition: opacity 0.2s ease;
     opacity: 0;
   }
