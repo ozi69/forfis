@@ -417,7 +417,7 @@ footer {
 
   .container-ai__page-box::after {
     content: "";
-    background: url("/src/img/top_2.svg") center/contain no-repeat;
+    background: url("src/img/top_2.svg") center/contain no-repeat;
     width: 4rem;
     height: 4rem;
 
