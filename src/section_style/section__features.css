@@ -1,0 +1,51 @@
+.container-features {
+  margin-top: 3.2rem;
+  height: 32rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+.box-label {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* Скрываем настоящий чекбокс */
+.real-checkbox[type="checkbox"] {
+  width: 0;
+  height: 0;
+  opacity: 0;
+  position: absolute;
+}
+
+/* Сам квадрат чекбокса */
+.custom-checkbox {
+  position: relative;
+  width: 2.4rem;
+  height: 2.4rem;
+  border: 0.1rem solid var(--color-stroke-light);
+  border-radius: var(--border-r8);
+  background: white;
+  flex-shrink: 0;
+}
+
+/* Галочка (лучше через псевдоэлемент) */
+.custom-checkbox::before {
+  content: "";
+  position: absolute;
+  inset: -0.2rem;
+  background: url("/src/img/top.svg") center/contain no-repeat;
+  transition: opacity 0.2s ease;
+  opacity: 0;
+}
+
+/* Когда чекбокс отмечен */
+.real-checkbox[type="checkbox"]:checked + .custom-checkbox::before {
+  opacity: 1;
+}

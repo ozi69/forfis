@@ -139,11 +139,13 @@ a {
   outline: unset;
 }
 
+textarea,
 input,
 button,
 label {
   cursor: pointer;
   outline: unset;
+  resize: none;
 }
 
 h1,

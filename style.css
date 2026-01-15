@@ -16,6 +16,14 @@
 @import url(./src/section_style/section__market.css);
 @import url(./src/section_style/section__insights.css);
 @import url(./src/section_style/section__careers.css);
+@import url(./src/section_style/section__launch.css);
+@import url(./src/section_style/section__portfolio.css);
+@import url(./src/section_style/section__faq.css);
+@import url(./src/section_style/section__form.css);
+@import url(./src/section_style/section__page-case.css);
+@import url(./src/section_style/section__industries.css);
+@import url(./src/section_style/section__features.css);
+@import url(./src/section_style/section__form-ai.css);
 
 /*  */
 
@@ -28,6 +36,7 @@
   --color-blue: #005eff;
   --color-blue-shadow: 0 0 1.6rem 0 #0015ff40;
 
+  --color-gray: #f7f9fb;
   --color-gray-text: #636877;
   --color-dark-text: #f2f2f2;
   --color-stroke-light: #e9e9e9;
@@ -36,6 +45,7 @@
   --color-gradient: linear-gradient(180deg, #005eff 0%, #2895ff 88.89%);
   --color-gradient-alt: linear-gradient(90deg, #005eff 0%, #2895ff 100%);
 
+  --border-r40: 4rem;
   --border-r32: 3.2rem;
   --border-r24: 2.4rem;
   --border-r16: 1.6rem;
@@ -62,6 +72,14 @@
   line-height: 125%;
 }
 .font-heading-40 {
+  font-family: Heading Now regular;
+
+  font-weight: 700;
+  font-size: 4rem;
+
+  line-height: 125%;
+}
+.font-heading-32 {
   font-family: Heading Now regular;
 
   font-weight: 700;
@@ -357,8 +375,142 @@ footer {
   }
 }
 
+/*  */
+
+.hgruop-ai__page {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+
+  .hgruop-ai__page-title {
+  }
+  .hgruop-ai__page-text {
+    color: var(--color-gray-text);
+  }
+}
+
+.container-ai__page {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2.4rem;
+
+  margin-top: 3.2rem;
+
+  .container-ai__page-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.4rem;
+
+    padding: 3rem 2.4rem;
+    border: 0.1rem solid var(--color-stroke-light);
+    border-radius: var(--border-r16);
+
+    cursor: pointer;
+    position: relative;
+
+    transition: all 0.3s ease;
+  }
+  .ai__page-box-checbox {
+    display: none;
+  }
+
+  .container-ai__page-box::after {
+    content: "";
+    background: url("/src/img/top_2.svg") center/contain no-repeat;
+    width: 4rem;
+    height: 4rem;
+
+    position: absolute;
+    top: -1.2rem;
+    left: -1.2rem;
+
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .container-ai__page-box:has(input:checked)::after {
+    opacity: 1;
+  }
+
+  /* Визуальная обратная связь при наведении и выборе */
+  .container-ai__page-box:hover {
+    border-color: var(--color-primary, #0066ff);
+    background: rgba(0, 102, 255, 0.03);
+  }
+
+  .container-ai__page-box:has(input[type="checkbox"]:checked) {
+    border-color: var(--color-primary, #0066ff);
+    background: rgba(0, 102, 255, 0.06);
+    box-shadow: 0 0 0 0.3rem rgba(0, 102, 255, 0.15);
+  }
+
+  .container-ai__page-box__img {
+    width: 9.6rem;
+    height: 9.6rem;
+  }
+  .container-ai__page-box__text {
+  }
+}
+
+/* section-idea */
+
+.section-idea {
+  .textarea-idea {
+    padding: 1.6rem 2rem;
+    background-color: var(--color-primary-light);
+    margin-top: 3.2rem;
+
+    height: 20rem;
+    width: 100%;
+    border-radius: var(--border-r12);
+
+    &::placeholder {
+      font-weight: 400 !important;
+      color: var(--color-gray-text);
+      transition: 0.3s ease;
+    }
+
+    &:focus::placeholder {
+      color: transparent;
+    }
+  }
+}
+
+/* form-def */
+
+.def-form__box-label {
+  font-weight: 600 !important;
+  color: var(--color-gray-text);
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.def-form__box-input {
+  border-radius: var(--border-r12);
+  border: 0.1rem solid var(--color-stroke-light);
+  background-color: var(--color-primary-light);
+  padding: 2rem;
+
+  &::placeholder {
+    font-weight: 400 !important;
+    color: var(--color-gray-text);
+
+    transition: 0.3s ease;
+  }
+
+  &:focus::placeholder {
+    color: transparent;
+  }
+}
+
 /* для кноки в конце секции */
 .section-bottom__btn {
   margin: 6.4rem auto 0;
   width: fit-content;
+}
+.section-bottom__btn-alt {
+  margin: 6.4rem auto 0;
+  display: block;
 }

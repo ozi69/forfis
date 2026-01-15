@@ -1,0 +1,126 @@
+.contianer-faq {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+
+  margin-top: 6.4rem;
+}
+
+details summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 2.4rem;
+  background-color: var(--color-white__def);
+
+  position: relative;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3.2rem;
+
+  border-bottom: 0.1rem solid var(--color-black__def-1000_01);
+
+  @media (max-width: 767px) {
+    padding-inline: unset;
+    gap: 1rem;
+  }
+}
+details:hover summary .icon-box_summary {
+  path {
+    fill: var(--color-blue);
+  }
+}
+.icon-box_summary {
+  border-radius: 50%;
+  transition: 0.3s ease;
+
+  svg {
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+
+  path {
+    transition: 0.3s ease;
+  }
+}
+.first-summary {
+  border-radius: 1.6rem;
+  background-color: var(--color-gray);
+}
+.last-summary {
+  border-radius: 0 0 1.6rem 1.6rem;
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+.accordion-block {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.accordion {
+}
+
+.accordion_details {
+  &:hover {
+    color: var(--color-icons);
+  }
+}
+.accordion_details-last[open] {
+}
+
+.accordion_details[open] {
+  .icon-box_summary {
+    svg {
+      transform: rotate(-180deg);
+    }
+    path {
+      fill: var(--color-blue);
+    }
+  }
+
+  summary {
+    border-radius: 1.6rem 1.6rem 0 0;
+  }
+}
+.icon-box_summary svg {
+  transform: rotate(0);
+  transform-origin: center;
+  transition: transform 0.3s;
+}
+
+.accordion_details[open] + .accordion_contnent {
+  grid-template-rows: 1fr;
+  background-color: var(--color-gray);
+  padding: 0 2.4rem 2.4rem 2.4rem;
+  border-radius: 0 0 1.6rem 1.6rem;
+
+  @media (max-width: 767px) {
+    padding-inline: unset;
+  }
+}
+
+.accordion_title {
+  display: inline;
+}
+
+.accordion_contnent {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition-duration: 0.3s;
+}
+.accordion_contnent-last {
+  border-radius: 0 0 1.2rem 1.2rem;
+}
+
+.accordion_content-body {
+  overflow: hidden;
+
+  p {
+    color: var(--color-text-main);
+  }
+}

@@ -1,0 +1,122 @@
+.core-portfolio {
+  display: flex;
+  flex-direction: column;
+  gap: 6.4rem;
+
+  margin-top: 3.2rem;
+}
+.portfolio__nav {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+.portfolio__nav-btn {
+  padding: 1.6rem 2.4rem;
+  color: var(--color-gray-text);
+  transition: 0.3s ease all;
+  border-bottom: 0.2rem solid transparent;
+
+  font-weight: 500 !important;
+
+  &:hover {
+    color: var(--color-blue);
+    border-color: var(--color-blue);
+  }
+}
+
+/*  */
+
+.container-portfolio {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.4rem;
+}
+.card-portfolio {
+  padding: 3.2rem;
+  border-radius: var(--border-r40);
+  border: 0.1rem solid var(--color-stroke-light);
+
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+.card-portfolio__img {
+  height: 32rem;
+
+  img {
+    border-radius: var(--border-r24);
+  }
+}
+.card-portfolio__content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.card-portfolio__content-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-portfolio__content-block__head {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+.card-portfolio__head-title {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.card-portfolio__title-img {
+  width: 4rem;
+  height: 4rem;
+}
+.card-portfolio__head-grade {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+
+  padding: 0.6rem 1.2rem;
+  border-radius: var(--border-r32);
+  background-color: var(--color-primary-light);
+}
+.card-portfolio__grade-number {
+}
+.card-portfolio__grade-img {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+.card-portfolio__content-block__text {
+  color: var(--color-white);
+  padding: 0.6rem 1.2rem;
+  background-color: var(--color-blue);
+  border-radius: var(--border-r32);
+}
+.card-portfolio__content-text {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+.card-portfolio_block {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.2rem;
+}
+.card-portfolio_block-box {
+  padding: 0.8rem;
+  border-radius: var(--border-r16);
+  background-color: var(--color-primary-light);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+}
+.card-portfolio_box-title {
+}
+
+.card-portfolio_box-text {
+  color: var(--color-gray-text);
+
+  
+}

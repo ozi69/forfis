@@ -1,0 +1,16 @@
+.form-ai {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+
+  margin-top: 3.2rem;
+}
+.ai-form__box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.4rem;
+}
+
+.section-form-ai__btn {
+
+}
