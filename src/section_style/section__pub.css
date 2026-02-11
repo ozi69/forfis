@@ -1,0 +1,15 @@
+.container-pub {
+  display: grid;
+  grid-template-columns: 60rem 1fr;
+  gap: 7rem;
+}
+
+.container-pub__alt {
+  display: grid;
+  grid-template-columns: 1fr 60rem;
+  gap: 7rem;
+}
+
+.container-pub__img {
+  
+}

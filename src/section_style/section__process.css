@@ -3,6 +3,12 @@
   grid-template-columns: repeat(4, 1fr);
 
   margin-top: 6.4rem;
+
+  @media (max-width: 767px) {
+    grid-template-columns: repeat(1, 1fr);
+
+    margin-top: 3.2rem;
+  }
 }
 .process-card {
   padding: 3.2rem;
@@ -12,8 +18,21 @@
   flex-direction: column;
   gap: 3.2rem;
 
+  @media (max-width: 767px) {
+    border-bottom: 0.1rem solid var(--color-stroke-light);
+    border-right: unset;
+
+    gap: 2rem;
+
+    padding: 2.4rem 1.6rem;
+  }
+
   &:last-child {
     border-right: unset;
+
+    @media (max-width: 767px) {
+      border-bottom: unset;
+    }
   }
 }
 .process-card__img {
@@ -26,6 +45,7 @@
   gap: 0.8rem;
 }
 .process-card__hgroup-title {
+  text-transform: uppercase;
 }
 .process-card__hgroup-text {
   color: var(--color-gray-text);

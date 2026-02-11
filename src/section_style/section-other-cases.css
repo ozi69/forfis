@@ -1,0 +1,18 @@
+.section-other-cases {
+}
+.contianer-other-cases {
+}
+
+.card-other {
+  min-width: 55rem;
+  width: 55rem;
+
+  user-select: none;
+
+  .card-portfolio__content-text {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+}

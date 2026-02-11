@@ -1,16 +1,43 @@
 .section-app {
-  background: var(--color-gradient-alt);
+}
+._container-app {
+  background: var(--color-blue);
+}
+.container-app__img {
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+
+    @media (max-width: 767px) {
+      height: 90rem;
+    }
+  }
 }
 .container-app {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 7rem;
+
+  @media (max-width: 767px) {
+    flex-direction: column;
+    gap: 2.4rem;
+  }
 }
+
 .container-app__hgroup {
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
+
+  @media (max-width: 767px) {
+    text-align: center;
+  }
 
   h2 {
     color: var(--color-white);
@@ -18,8 +45,17 @@
 
   p {
     color: var(--color-white);
+
+    @media (max-width: 767px) {
+      font-weight: 300 !important;
+    }
   }
 }
 .container-app__btn {
   color: var(--color-blue);
+  text-align: center;
+
+  @media (max-width: 767px) {
+    width: 100%;
+  }
 }

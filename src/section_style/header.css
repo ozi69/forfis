@@ -6,6 +6,9 @@ header {
   justify-content: space-between;
 }
 .header-logo {
+  font-family: Heading Now extrabold;
+  font-size: 3.2rem;
+  line-height: 3.2rem;
 }
 .header-logo__img {
   width: 9.5rem;
@@ -16,6 +19,9 @@ header {
   justify-content: center;
 }
 .header-nav {
+  @media (max-width: 767px) {
+    display: none;
+  }
 }
 .header-nav__list {
   display: flex;
@@ -26,6 +32,20 @@ header {
 .header-item__link {
 }
 .header-block__btn {
+  @media (max-width: 767px) {
+    display: none;
+  }
 }
-.btn-second {
+
+/* burger-menu */
+
+.burger {
+  display: none;
+
+  @media (max-width: 767px) {
+    display: block;
+
+    width: 4rem;
+    height: 4rem;
+  }
 }

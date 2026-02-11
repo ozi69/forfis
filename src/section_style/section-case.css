@@ -6,31 +6,59 @@
   gap: 6.4rem;
 
   margin-top: 6.4rem;
+
+  @media (max-width: 767px) {
+    gap: 3.2rem;
+    margin-top: 3.2rem;
+  }
 }
 .case-card {
   display: flex;
   gap: 7rem;
 
-  min-height: 57rem;
-
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
+
+  @media (max-width: 767px) {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 1.6rem;
+  }
+}
+.case-card__reverse > :nth-child(2) {
+  order: -1;
+
+  @media (max-width: 767px) {
+    order: unset;
+  }
 }
 .case-card__content {
   display: flex;
   flex-direction: column;
-  gap: 6.4rem;
+  gap: 4rem;
+
+  @media (max-width: 767px) {
+    gap: 3rem;
+  }
 }
 .case-card__content-core {
   display: flex;
   flex-direction: column;
-  gap: 2.4rem;
+  gap: 3.2rem;
+
+  @media (max-width: 767px) {
+    gap: 1.6rem;
+  }
 }
 .case-card__content-head {
   display: flex;
   align-items: center;
   gap: 1.6rem;
+
+  @media (max-width: 767px) {
+    gap: 1.2rem;
+  }
 }
 .case-card__head-title {
   display: flex;
@@ -40,6 +68,11 @@
 .case-card__title-img {
   width: 4rem;
   height: 4rem;
+
+  @media (max-width: 767px) {
+    width: 3.2rem;
+    height: 3.2rem;
+  }
 }
 .case-card__head-grade {
   display: flex;
@@ -56,6 +89,15 @@
   width: 1.6rem;
   height: 1.6rem;
 }
+.case-card__hgroup {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+
+  @media (max-width: 767px) {
+    gap: 1.5rem;
+  }
+}
 .case-card__content-title {
   background-image: var(--color-gradient-alt);
   background-clip: text;
@@ -68,6 +110,11 @@
   grid-template-columns: repeat(3, 1fr);
   justify-content: space-between;
   gap: 2.5rem;
+
+  @media (max-width: 767px) {
+    gap: unset;
+    justify-items: center;
+  }
 }
 .case-card__block-box {
   border-right: 0.1rem solid var(--color-stroke-light);
@@ -77,6 +124,11 @@
   position: relative;
 
   gap: 0.4rem;
+
+  @media (max-width: 767px) {
+    border-right: unset;
+    align-items: center;
+  }
 
   &:last-child {
     border-right: unset;
@@ -89,16 +141,43 @@
   align-items: center;
 }
 .case-card__indicators-img {
-  width: 2rem;
-  height: 2rem;
+  width: 2.4rem;
+  height: 2.4rem;
+
+  @media (max-width: 767px) {
+    width: 2rem;
+    height: 2rem;
+  }
 }
 .case-card__indicators-text {
+  display: flex;
+  align-items: center;
+
+  span {
+    font-size: 2rem;
+    line-height: 2rem;
+
+    position: relative;
+    top: 0.3rem;
+
+    @media (max-width: 767px) {
+      font-size: 1.6rem;
+      line-height: 1.6rem;
+    }
+  }
 }
 .case-card__box-text {
   color: var(--color-gray-text);
 }
 .case-card__btn {
   width: fit-content;
+
+  @media (max-width: 767px) {
+    width: unset;
+
+    margin: 0 auto 2.4rem;
+    font-size: 2.4rem !important;
+  }
 }
 .case-card__img {
 }

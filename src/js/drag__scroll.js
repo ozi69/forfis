@@ -8,8 +8,6 @@ document.addEventListener('DOMContentLoaded', function() {
       
       this.init();
     }
-
-    // если в консоли возникает ошибка, то она связана с ненахожденим контейнар в котором проихсодит свайп
     
     init() {
       this.container.addEventListener('mousedown', this.onMouseDown.bind(this));
@@ -44,12 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
 
-  // Использование
-  const commentContainer = new DragScroll(document.querySelector('.container-comments'));
-  const insightsContainer = new DragScroll(document.querySelector('.container-insights'));
-  const careersContainer = new DragScroll(document.querySelector('.container-careers'));
-
-  // Или для всех элементов с классом .drag-scroll
+  // Инициализация ВСЕХ контейнеров с классом .drag-scroll
   document.querySelectorAll('.drag-scroll').forEach(container => {
     new DragScroll(container);
   });

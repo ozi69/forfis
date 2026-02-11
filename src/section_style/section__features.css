@@ -47,5 +47,7 @@
   /* Когда чекбокс отмечен */
   input[type="checkbox"]:checked + .custom-checkbox::before {
     opacity: 1;
+    box-shadow: 0 0 0 0.1rem rgba(0, 102, 255, 0.15);
+    border-radius: var(--border-r8);
   }
 }

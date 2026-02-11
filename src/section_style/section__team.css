@@ -1,0 +1,31 @@
+.container-team {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2.4rem;
+
+  margin-top: 6.4rem;
+}
+.card-team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-team__img {
+  width: 16rem;
+  height: 16rem;
+}
+.card-team__hgroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+
+  text-align: center;
+
+  margin-top: 2.4rem;
+}
+.card-team__link {
+  color: var(--color-blue);
+
+  text-align: center;
+  margin-top: 0.8rem;
+}

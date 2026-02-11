@@ -1,0 +1,39 @@
+.container-challenges {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  margin-top: 6.4rem;
+}
+.card-challenges {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+
+  padding: 3.2rem;
+
+  border-right: 0.1rem solid var(--color-stroke-light);
+  border-bottom: 0.1rem solid var(--color-stroke-light);
+
+  &:nth-child(3n) {
+    border-right: none;
+  }
+
+  &:nth-last-child(-n + 3) {
+    border-bottom: none;
+  }
+}
+.card-challenges__img {
+  width: 5.6rem;
+  height: 5.6rem;
+}
+.card-challenges__hgroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.card-challenges__hgroup-title {
+  text-transform: uppercase;
+}
+.card-challenges__hgroup-text {
+  color: var(--color-gray-text);
+}

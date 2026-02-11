@@ -5,12 +5,22 @@
   gap: 2.4rem;
 
   user-select: none;
-  min-width: 35.6rem;
-  width: 35.6rem;
-  min-height: 45rem;
+  min-width: 36rem;
+  width: 36rem;
+  min-height: 43rem;
   padding: 2.4rem;
   border: 0.1rem solid var(--color-stroke-light);
   border-radius: var(--border-r16);
+
+  @media (max-width: 767px) {
+    width: 32rem;
+    min-width: 32rem;
+    min-height: 38rem;
+
+    padding: 1.6rem;
+
+    gap: 1.6rem;
+  }
 }
 .card-comment__img {
   width: 12.8rem;
@@ -30,4 +40,7 @@
 }
 .card-comment__content-quote {
   text-align: center;
+}
+.card-comment__btn {
+  margin-top: auto;
 }

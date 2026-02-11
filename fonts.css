@@ -1,20 +1,20 @@
-
 @font-face {
   font-family: "Heading Now bold";
-  src: url("src/fonts/Heading_Now/Heading_Now_bold.woff") format("truetype");
+  src: url("src/fonts/Heading_Now/Heading_Now_55_Medium.woff") format("truetype");
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Heading Now extrabold";
-  src: url("src/fonts/Heading_Now/Heading_Now_extrabold.woff")
+  src: url("src/fonts/Heading_Now/Heading_Now_35_Medium.woff")
     format("truetype");
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Heading Now regular";
-  src: url("src/fonts/Heading_Now/Heading_Now_regular.woff") format("truetype");
+  src: url("src/fonts/Heading_Now/Heading_Now_45_Medium.woff")
+    format("truetype");
   font-style: normal;
   font-display: swap;
 }
@@ -23,7 +23,8 @@
 
 @font-face {
   font-family: "Roboto Condensed";
-  src: url("src/fonts/Roboto_Condensed/RobotoCondensed-VariableFont_wght.ttf") format("truetype");
+  src: url("src/fonts/Roboto_Condensed/RobotoCondensed-VariableFont_wght.ttf")
+    format("truetype");
   font-style: normal;
   font-display: swap;
 }

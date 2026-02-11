@@ -1,0 +1,35 @@
+.core-functionality {
+  display: grid;
+  grid-template-columns: 1fr 47rem;
+  gap: 7rem;
+}
+.container-functionality {
+  display: flex;
+  flex-direction: column;
+  gap: 4.8rem;
+}
+
+.block-functionality {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+.block-functionality__box {
+  display: flex;
+  gap: 2rem;
+}
+.block-functionality__box-img {
+  width: 6.4rem;
+  min-width: 6.4rem;
+  height: 6.4rem;
+}
+.block-functionality__box-hgroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.functionality-box__hgroup-title {
+  text-transform: uppercase;
+}
+.functionality-box__hgroup-text {
+}
