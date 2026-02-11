@@ -1,0 +1,110 @@
+.section-ai__page {
+}
+
+.hgruop-ai__page {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+
+  @media (max-width: 767px) {
+    gap: 0.8rem;
+  }
+
+  .hgruop-ai__page-title {
+  }
+  .hgruop-ai__page-text {
+    color: var(--color-gray-text);
+  }
+}
+
+.container-ai__page {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2.4rem;
+
+  margin-top: 3.2rem;
+
+  @media (max-width: 767px) {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.8rem;
+
+    margin-top: 2.4rem;
+  }
+
+  .container-ai__page-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.4rem;
+
+    padding: 3rem 2.4rem;
+    border: 0.1rem solid var(--color-stroke-light);
+    border-radius: var(--border-r16);
+
+    cursor: pointer;
+    position: relative;
+
+    transition: all 0.3s ease;
+
+    @media (max-width: 767px) {
+      /* padding: 2.8rem 2.8rem 3.2rem; */
+      padding: 2.8rem 0 2.4rem;
+
+      gap: 1.5rem;
+    }
+  }
+  .ai__page-box-checbox {
+    display: none;
+  }
+
+  .container-ai__page-box::after {
+    content: "";
+    background: url("../img/top_2.svg") center/contain no-repeat;
+    width: 4rem;
+    height: 4rem;
+
+    position: absolute;
+    top: -1.2rem;
+    left: -1.2rem;
+
+    opacity: 0;
+    transition: opacity 0.3s ease;
+
+    @media (max-width: 767px) {
+      width: 3.2rem;
+      height: 3.2rem;
+
+      top: -0.8rem;
+      left: -0.7rem;
+    }
+  }
+
+  .container-ai__page-box:has(input:checked)::after {
+    opacity: 1;
+  }
+
+  /* Визуальная обратная связь при наведении и выборе */
+  .container-ai__page-box:hover {
+    border-color: var(--color-primary, #0066ff);
+    background: rgba(0, 102, 255, 0.03);
+  }
+
+  .container-ai__page-box:has(input[type="checkbox"]:checked) {
+    border-color: var(--color-primary, #0066ff);
+    background: rgba(0, 102, 255, 0.06);
+    box-shadow: 0 0 0 0.3rem rgba(0, 102, 255, 0.15);
+  }
+
+  .container-ai__page-box__img {
+    width: 9.6rem;
+    height: 9.6rem;
+
+    @media (max-width: 767px) {
+      width: 5.6rem;
+      height: 5.6rem;
+    }
+  }
+  .container-ai__page-box__text {
+    text-align: center;
+  }
+}

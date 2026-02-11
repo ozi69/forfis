@@ -1,0 +1,24 @@
+.section-idea {
+  .textarea-idea {
+    padding: 1.6rem 2rem;
+    background-color: var(--color-primary-light);
+    margin-top: 3.2rem;
+
+    height: 20rem;
+    width: 100%;
+    border-radius: var(--border-r12);
+
+    @media (max-width: 767px) {
+      margin-top: 2.4rem;
+    }
+
+    &::placeholder {
+      color: var(--color-gray-text);
+      transition: 0.3s ease;
+    }
+
+    &:focus::placeholder {
+      color: transparent;
+    }
+  }
+}

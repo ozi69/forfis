@@ -6,6 +6,12 @@
   flex-wrap: wrap;
   flex-direction: column;
   gap: 2.4rem;
+
+  @media (max-width: 767px) {
+    height: unset;
+
+    gap: 1.6rem;
+  }
 }
 .box-label {
   position: relative;

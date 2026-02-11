@@ -4,6 +4,11 @@
   gap: 1.6rem;
 
   margin-top: 6.4rem;
+
+  @media (max-width: 767px) {
+    margin-top: 3.2rem;
+    gap: 0.8rem;
+  }
 }
 
 details summary {
@@ -22,7 +27,7 @@ details summary {
   border-bottom: 0.1rem solid var(--color-black__def-1000_01);
 
   @media (max-width: 767px) {
-    padding-inline: unset;
+    padding-inline: 1.6rem;
     gap: 1rem;
   }
 }
@@ -100,7 +105,7 @@ details summary::-webkit-details-marker {
   border-radius: 0 0 1.6rem 1.6rem;
 
   @media (max-width: 767px) {
-    padding-inline: unset;
+    padding-inline: 1.6rem;
   }
 }
 
@@ -121,6 +126,6 @@ details summary::-webkit-details-marker {
   overflow: hidden;
 
   p {
-    color: var(--color-text-main);
+    color: var(--color-gray-text);
   }
 }
