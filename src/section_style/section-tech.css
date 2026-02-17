@@ -1,5 +1,9 @@
 .section-tech {
-  margin-top: 28rem;
+  margin-top: 13.7rem;
+
+  @media (max-width: 767px) {
+    margin-top: 28rem;
+  }
 }
 .section-tech-two {
 }

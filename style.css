@@ -67,12 +67,11 @@
   font-weight: 500;
   font-size: 7.6rem;
 
-  line-height: 125%;
+  line-height: 100%;
 
   @media (max-width: 767px) {
     font-size: 4rem;
     font-weight: 4rem;
-    line-height: 100%;
   }
 }
 .font-heading-64 {
@@ -81,11 +80,10 @@
   font-weight: 500;
   font-size: 6.4rem;
 
-  line-height: 125%;
+  line-height: 100%;
 
   @media (max-width: 767px) {
     font-size: 4rem;
-    line-height: 100%;
   }
 }
 .font-heading-40 {
@@ -94,12 +92,11 @@
   font-weight: 500;
   font-size: 4rem;
 
-  line-height: 125%;
+  line-height: 100%;
 
   @media (max-width: 767px) {
     font-size: 3.2rem;
     line-height: 3.2rem;
-    line-height: 100%;
   }
 }
 .font-heading-32 {
@@ -108,10 +105,9 @@
   font-weight: 500;
   font-size: 3.2rem;
 
-  line-height: 125%;
+  line-height: 100%;
 
   @media (max-width: 767px) {
-    line-height: 100%;
   }
 }
 .font-heading-28 {
@@ -120,10 +116,9 @@
   font-weight: 500;
   font-size: 2.8rem;
 
-  line-height: 125%;
+  line-height: 100%;
 
   @media (max-width: 767px) {
-    line-height: 100%;
     font-size: 2.4rem;
   }
 }
@@ -133,7 +128,7 @@
   font-weight: 500;
   font-size: 2.4rem;
 
-  line-height: 125%;
+  line-height: 100%;
 
   @media (max-width: 767px) {
     font-size: 2rem;
@@ -146,7 +141,7 @@
   font-weight: 500;
   font-size: 2.4rem;
 
-  line-height: 125%;
+  line-height: 100%;
 }
 .font-heading-20 {
   font-family: Heading Now regular;
@@ -154,10 +149,9 @@
   font-weight: 500;
   font-size: 2rem;
 
-  line-height: 125%;
+  line-height: 100%;
 
   @media (max-width: 767px) {
-    line-height: 100%;
     font-size: 1.6rem;
   }
 }
@@ -168,7 +162,7 @@
   font-family: Roboto Condensed;
   font-size: 2.4rem;
 
-  line-height: 125%;
+  line-height: 100%;
 
   @media (max-width: 767px) {
     font-size: 2rem;
@@ -179,7 +173,7 @@
   font-family: Roboto Condensed;
   font-size: 2rem;
 
-  line-height: 125%;
+  line-height: 100%;
 
   @media (max-width: 767px) {
     font-size: 1.6rem;
@@ -190,13 +184,13 @@
   font-family: Roboto Condensed;
   font-size: 2rem;
 
-  line-height: 125%;
+  line-height: 100%;
 }
 .font-text-16 {
   font-family: Roboto Condensed;
   font-size: 1.6rem;
 
-  line-height: 125%;
+  line-height: 100%;
 
   @media (max-width: 767px) {
     line-height: 2rem;
@@ -206,9 +200,8 @@
   font-family: Roboto Condensed;
   font-size: 1.4rem;
 
-  line-height: 125%;
+  line-height: 100%;
   @media (max-width: 767px) {
-    line-height: 100%;
   }
 }
 

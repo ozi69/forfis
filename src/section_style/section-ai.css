@@ -2,9 +2,11 @@
   display: grid;
   grid-template-columns: 47rem 1fr;
   gap: 7rem;
+  align-items: center;
 
   @media (max-width: 767px) {
     grid-template-columns: repeat(1, 1fr);
+    align-items: unset;
     gap: unset;
   }
 }
@@ -43,6 +45,19 @@
       width: 2.4rem;
       min-width: 2.4rem;
       height: 2.4rem;
+    }
+  }
+  .hgroup-head__box {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    @media (max-width: 767px) {
+      gap: 2rem;
+    }
+
+    p {
+      color: unset;
     }
   }
   .ai-block__box-hgroup {
@@ -105,6 +120,5 @@
 
   @media (max-width: 767px) {
     width: unset;
-    font-size: 2.4rem !important;
   }
 }
