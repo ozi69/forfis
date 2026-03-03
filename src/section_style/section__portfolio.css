@@ -4,22 +4,50 @@
   gap: 6.4rem;
 
   margin-top: 3.2rem;
+
+  @media (max-width: 767px) {
+    gap: 3.2rem;
+  }
 }
 .portfolio__nav {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
+
+  padding-bottom: 1.6rem;
+
+  @media (max-width: 767px) {
+    display: flex;
+
+    overflow-x: auto;
+    margin: 0 -2rem 0 -2rem;
+    padding: 0 2rem 0 2rem;
+
+    width: 100vw;
+
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
 }
 .portfolio__nav-btn {
-  padding: 1.6rem 2.4rem;
   color: var(--color-gray-text);
   transition: 0.3s ease all;
-  border-bottom: 0.2rem solid transparent;
+  border-bottom: 0.2rem solid var(--color-stroke-light);
+  padding-bottom: 1.6rem;
 
   font-weight: 500 !important;
 
+  @media (max-width: 767px) {
+    white-space: nowrap;
+    padding-inline: 1.2rem;
+  }
+
   &:hover {
     color: var(--color-blue);
-    border-color: var(--color-blue);
+    border-bottom: 0.2rem solid var(--color-blue);
   }
 }
 
@@ -29,6 +57,10 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2.4rem;
+
+  @media (max-width: 767px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 .card-portfolio {
   padding: 3.2rem;
@@ -40,9 +72,20 @@
   gap: 3.2rem;
 
   position: relative;
+
+  @media (max-width: 767px) {
+    border-radius: 2.4rem;
+    padding: 2rem 1.4rem;
+
+    gap: 1.6rem;
+  }
 }
 .card-portfolio__img {
   height: 32rem;
+
+  @media (max-width: 767px) {
+    height: 20rem;
+  }
 
   img {
     border-radius: var(--border-r24);
@@ -52,6 +95,10 @@
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
+
+  @media (max-width: 767px) {
+    gap: 1rem;
+  }
 }
 .card-portfolio__content-head {
   display: flex;
@@ -67,6 +114,11 @@
 .card-portfolio__title-img {
   width: 4rem;
   height: 4rem;
+
+  @media (max-width: 767px) {
+    width: 3.2rem;
+    height: 3.2rem;
+  }
 }
 .card-portfolio__head-grade {
   display: flex;
@@ -82,23 +134,33 @@
 .card-portfolio__grade-img {
   width: 1.6rem;
   height: 1.6rem;
+
+  @media (max-width: 767px) {
+    height: 1.2rem;
+    width: 1.2rem;
+  }
 }
 .card-block__prew {
   position: absolute;
   top: -1.5rem;
   left: 50%;
   transform: translateX(-50%);
+
+  display: flex;
+  gap: 1rem;
 }
 .card-prew {
   color: var(--color-white);
   padding: 0.5rem 1.6rem;
   background-color: var(--color-blue);
   border-radius: var(--border-r32);
+
+  white-space: nowrap;
 }
 .card-portfolio__content-text {
   overflow: hidden;
   display: -webkit-box;
-  -webkit-line-clamp: 5;
+  -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
 
   text-align: center;
@@ -106,21 +168,16 @@
 .card-portfolio_block {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  justify-self: center;
   gap: 1.2rem;
-}
-.card-portfolio_block-box {
-  padding: 0.8rem;
-  border-radius: var(--border-r16);
-  background-color: var(--color-primary-light);
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.4rem;
-}
-.card-portfolio_box-title {
-}
+  @media (max-width: 767px) {
+    gap: 0.1rem;
+  }
 
-.card-portfolio_box-text {
-  color: var(--color-gray-text);
+  .case-card__block-box {
+    align-items: center;
+
+    border: none;
+  }
 }

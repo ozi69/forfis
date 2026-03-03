@@ -91,6 +91,10 @@ details summary::-webkit-details-marker {
   summary {
     border-radius: 1.6rem 1.6rem 0 0;
   }
+
+  @media (maxwidth: 767px) {
+    padding-bottom: 1rem;
+  }
 }
 .icon-box_summary svg {
   transform: rotate(0);
