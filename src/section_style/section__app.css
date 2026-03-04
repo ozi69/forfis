@@ -1,22 +1,8 @@
 .section-app {
+  background: var(--color-blue);
+  position: relative;
 }
 ._container-app {
-  background: var(--color-blue);
-}
-.container-app__img {
-  img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    object-position: center;
-
-    @media (max-width: 767px) {
-      height: 90rem;
-    }
-  }
 }
 .container-app {
   display: flex;

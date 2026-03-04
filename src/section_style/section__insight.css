@@ -1,0 +1,42 @@
+._container {
+}
+.section-insight {
+  background-color: var(--color-blue-alt);
+}
+.container-insight {
+  display: grid;
+  grid-template-columns: 38rem 1fr;
+  gap: 7rem;
+
+  color: var(--color-white);
+
+  @media (max-width: 767px) {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 3.2rem;
+  }
+}
+.container-insight__head {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.container-insight__head__up {
+  background-image: var(--color-gradient-alt2);
+  background-clip: text;
+  color: transparent;
+
+  width: fit-content;
+}
+.container-insight__head__title {
+}
+.container-insight__block {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+
+  @media (max-width: 767px) {
+    gap: 2.4rem;
+  }
+}
+.container-insight__block-text {
+}

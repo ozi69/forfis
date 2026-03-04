@@ -10,6 +10,18 @@
     gap: 3.2rem;
   }
 }
+.contianer-consultation__alt {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 7rem;
+
+  @media (max-width: 767px) {
+    display: flex;
+    flex-direction: column-reverse;
+
+    gap: 3.2rem;
+  }
+}
 .contianer-consultation__content {
   display: flex;
   flex-direction: column;

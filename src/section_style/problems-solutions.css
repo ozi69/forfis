@@ -12,17 +12,6 @@
 .solutions-card {
 }
 
-.solutions-card__img-back {
-  img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    object-position: center;
-  }
-}
 .solutions-card__head {
   border-top-left-radius: var(--border-r16);
   border-top-right-radius: var(--border-r16);

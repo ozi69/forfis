@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cases - In Page</title>
+  <title>Verbatica case</title>
 
   <link rel="stylesheet" href="style.css">
 
@@ -17,72 +17,254 @@
 <body>
   <div class="wrapper">
     <header>
+      <div class="header" >
+        <a href="index.html" class="header-logo">
+          FORFIS
+        </a>
+  
+        <nav class="header-nav">
+          <ul class="header-nav__list">
+            <li class="header-list__item">
+              <a href="" class="header-item__link font-text-16">
+                Cases
+              </a>
+            </li>
+            <li class="header-list__item">
+              <a href="" class="header-item__link font-text-16">
+                Reviews
+              </a>
+            </li>
+            <li class="header-list__item">
+              <a href="" class="header-item__link font-text-16">
+                What We Do
+              </a>
+            </li>
+            <li class="header-list__item">
+              <a href="" class="header-item__link font-text-16">
+                Industries
+              </a>
+            </li>
+          </ul>
+        </nav>
+  
+        <div class="mobile-flex">
+          <!-- заглушка -->
+          <div class="header-lang">
+            <img src="src/img/lang-header.png" alt="">
+          </div>
+  
+          <!-- burger -->
+          <div class="burger">
+            <img src="src/img/burger.svg" alt="">
+          </div>
+        </div>
+      </div>
     </header>
   
     <main class="page">
-      <!-- section-page-case -->
-      <section class="section-page-case">
-      <div class="_container">
-        <div class="page-case">
-          <div class="page-case__img">
-            <img src="" alt="">
-          </div>
+      <!-- section-case /// copy -->
+      <section>
+        <div class="_container">
+            <div class="case-card">
+              <div class="case-card__content">
+                <div class="case-card__content-core">
+                  <div class="case-card__content-head">
+                    <h3 class="case-card__head-title font-heading-40">
+                      <span class="case-card__title-img">
+                        <img src="src/img/sailor.svg" alt="">
+                      </span>
+                      Sailor Planner
+                    </h3>
 
-          <div class="page-case__content">
-            <div class="page-case__core">
-              <div class="page-case__content-head">
-                <div class="page-case__content-block__head">
-                  <h3 class="page-case__head-title font-heading-40">
-                    <span class="page-case__title-img">
-                      <img src="src/img/card-port__img-1.svg" alt="">
-                    </span>
-                    Sailor Planner
-                  </h3>
-  
-                  <div class="page-case__head-grade">
-                    <span class="page-case__grade-number font-heading-20">
-                      4.6
-                    </span>
-                    <span class="page-case__grade-img">
-                      <img src="src/img/case-star.svg" alt="">
-                    </span>
+                    <div class="case-card__head-grade">
+                      <span class="case-card__grade-number font-heading-20">
+                        4.9
+                      </span>
+                      <span class="case-card__grade-img">
+                        <img src="src/img/case-star.svg" alt="">
+                      </span>
+                    </div>
+                  </div>
+
+                  <h4 class="case-card__content-title font-heading-24">
+                    +62% planning accuracy in offshore operations
+                  </h4>
+
+                  <div class="case-card__hgroup">
+                    <p class="case-card__content-text font-text-20">
+                      Sailor Planner is a cross-platform voyage planning system built for crews operating in unstable offshore environments. It consolidates routing logic, vessel data, and operational workflows into a single offline-capable interface.
+                    </p>
+                    <p class="case-card__content-text font-text-20">
+                      We engineered a resilient architecture and domain-driven UX that reduce manual coordination and enable faster, safer decision-making at sea, even with limited connectivity.
+                    </p>
+                  </div>
+
+                  <div class="case-card__content-block">
+                    <div class="case-card__block-box">
+                      <div class="case-card__box-indicators">
+                        <span class="case-card__indicators-img">
+                          <img src="src/img/icon__09.svg" alt="">
+                        </span>
+                        <p class="case-card__indicators-text font-heading-28">
+                          -45
+                          <span>
+                            %
+                          </span>
+                        </p>
+                      </div>
+
+                      <p class="case-card__box-text font-heading-20">
+                        Route Planning Time
+                      </p>
+                    </div>
+                    <div class="case-card__block-box">
+                      <div class="case-card__box-indicators">
+                        <span class="case-card__indicators-img">
+                          <img src="src/img/icon__10.svg" alt="">
+                        </span>
+                        <p class="case-card__indicators-text font-heading-28">
+                          +38
+                          <span>
+                            %
+                          </span>
+                        </p>
+                      </div>
+
+                      <p class="case-card__box-text font-heading-20">
+                        Fleet Utilization
+                      </p>
+                    </div>
+                    <div class="case-card__block-box">
+                      <div class="case-card__box-indicators">
+                        <span class="case-card__indicators-img">
+                          <img src="src/img/icon__11.svg" alt="">
+                        </span>
+                        <p class="case-card__indicators-text font-heading-28">
+                          -30
+                          <span>
+                            %
+                          </span>
+                        </p>
+                      </div>
+
+                      <p class="case-card__box-text font-heading-20">
+                        Operational Errors
+                      </p>
+                    </div>
                   </div>
                 </div>
 
-                <p class="font-heading-24 page-case__content-text">
-                  Increase voyage reliability by 99.8% even with zero internet connection.
-                </p>
+                <a href="" class="btn-second-alt2 font-heading-24 case-card__btn">
+                  Read Case >
+                </a>
               </div>
 
-              <div class="page-case__block-text">
-                <p class="font-text-20">
-                  Sailor Planner is a cross-platform application for tracking and planning sea voyages, designed for skippers, crews, and sailing organizations operating in unpredictable offshore conditions.
-                </p>
-                <p class="font-text-20">
-                  The product combines an offline-first architecture, role-based usage scenarios, and domain-driven UX-ensuring reliable planning and control even with no connectivity, limited time, and elevated safety requirements.
-                </p>
+              <div class="case-card__img">
+                <img src="src/img/sai__img-01.png" alt="">
               </div>
+            </div>
+        </div>
+      </section>
 
-              <div class="page-case__tech">
-                <div class="page-case__tech-box">
-                  <span class="page-case__tech-box__img">
-                    <img src="src/img/tech-stack_1.svg" alt="">
+      <!-- section-tech /// copy -->
+      <section class="section-tech__copy">
+        <div class="_container">
+          <div class="block-tech _block-tech">
+            <hgroup class="block-tech_hgroup">
+              <h2 class="font-heading-40">
+                Built With What Giants Use
+              </h2>
+
+              <p class="font-text-20">
+                We use the same stacks trusted by global leaders. AI frameworks, cross-platform tools, and cloud infrastructure help cut costs, speed up launches, and scale from thousands to millions of users without costly
+              </p>
+            </hgroup>
+
+            <div class="tech-stack">
+              <div class="tech-stack__block">
+                <div class="tech-stack__box">
+                  <span>
+                    <img src="src/img/openAI__API.svg" alt="">
                   </span>
                   <p class="font-heading-24">
-                    Next.JS
+                    OpenAI API
                   </p>
                 </div>
-                <div class="page-case__tech-box">
-                  <span class="page-case__tech-box__img">
-                    <img src="src/img/tech-stack_4.svg" alt="">
+                <div class="tech-stack__box">
+                  <span>
+                    <img src="src/img/react.svg" alt="">
                   </span>
                   <p class="font-heading-24">
-                    Mapbox SDK
+                    React
                   </p>
                 </div>
-                <div class="page-case__tech-box">
-                  <span class="page-case__tech-box__img">
-                    <img src="src/img/tech-stack_3.svg" alt="">
+                <div class="tech-stack__box">
+                  <span>
+                    <img src="src/img/aws.svg" alt="">
+                  </span>
+                  <p class="font-heading-24">
+                    AWS
+                  </p>
+                </div>
+                <div class="tech-stack__box">
+                  <span>
+                    <img src="src/img/cloudflare.svg" alt="">
+                  </span>
+                  <p class="font-heading-24">
+                    Cloudflare
+                  </p>
+                </div>
+                <div class="tech-stack__box">
+                  <span>
+                    <img src="src/img/next__js.svg" alt="">
+                  </span>
+                  <p class="font-heading-24">
+                    Next.js
+                  </p>
+                </div>
+                <div class="tech-stack__box">
+                  <span>
+                    <img src="src/img/node__js.svg" alt="">
+                  </span>
+                  <p class="font-heading-24">
+                    Node.js
+                  </p>
+                </div>
+                <div class="tech-stack__box">
+                  <span>
+                    <img src="src/img/lang__chain.svg" alt="">
+                  </span>
+                  <p class="font-heading-24">
+                    LangChain
+                  </p>
+                </div>
+                <div class="tech-stack__box">
+                  <span>
+                    <img src="src/img/flutter.svg" alt="">
+                  </span>
+                  <p class="font-heading-24">
+                    Flutter
+                  </p>
+                </div>
+                <div class="tech-stack__box">
+                  <span>
+                    <img src="src/img/stripe.svg" alt="">
+                  </span>
+                  <p class="font-heading-24">
+                    Stripe
+                  </p>
+                </div>
+                <div class="tech-stack__box">
+                  <span>
+                    <img src="src/img/hugging__face.svg" alt="">
+                  </span>
+                  <p class="font-heading-24">
+                    Hugging Face
+                  </p>
+                </div>
+                <div class="tech-stack__box">
+                  <span>
+                    <img src="src/img/react.svg" alt="">
                   </span>
                   <p class="font-heading-24">
                     React Native
@@ -90,59 +272,36 @@
                 </div>
               </div>
             </div>
-
-            <div class="page-case__down">
-              <div class="page-case__down-box">
-                <span class="page-case__down-box__span font-heading-28">
-                  2.7×
-                </span>
-                <p class="page-case__down-box__text font-heading-20">
-                  customer lifetime value
-                </p>
-              </div>
-              <div class="page-case__down-box">
-                <span class="page-case__down-box__span font-heading-28">
-                  52%
-                </span>
-                <p class="page-case__down-box__text font-heading-20">
-                  free-to-paid activation
-                </p>
-              </div>
-              <div class="page-case__down-box">
-                <span class="page-case__down-box__span font-heading-28">
-                  5 MIN
-                </span>
-                <p class="page-case__down-box__text font-heading-20">
-                  FIRST VALUE TIME
-                </p>
-              </div>
-            </div>
           </div>
         </div>
-      </div>
       </section>
 
       <!-- section-pub -->
       <section class="section-pub">
         <div class="_container">
           <div class="container-pub">
+            <div class="container-pub__img">
+              <img src="src/img/sai__img-02.png" alt="">
+            </div>
+
             <div class="section-head section-head__alt section-ai__head">
               <span class="hgroup-head__up font-heading-28">
-                Reliable Sea Planning in Unpredictable Conditions
+                RELIABLE SEA PLANNING IN UNPREDICTABLE CONDITIONS
               </span>
   
               <hgroup class="hgroup-head">
                 <h2 class="hgroup-head__title font-heading-64">
                   Executive Summary
                 </h2>
-                <p class=" font-text-24 ">
-                  Sailor Planner is a cross-platform planning and tracking solution built for maritime professionals operating in offshore and low-connectivity environments. The product combines offline-first architecture, role-based workflows, and navigation-focused UX to support safe and accurate voyage planning. It scales from individual sailors to organized crews and training institutions.
-                </p>
+                <div class="hgroup-head__content">
+                  <p class=" font-text-24 ">
+                    Sailor Planner is a cross-platform voyage planning and tracking system built for maritime professionals operating in offshore and low-connectivity environments.
+                  </p>
+                  <p class=" font-text-24 ">
+                    The platform combines offline-first architecture, role-adaptive workflows, and safety-focused UX to ensure accurate routing, operational visibility, and coordinated crew execution at sea.
+                  </p>
+                </div>
               </hgroup>
-            </div>
-
-            <div class="container-pub__img">
-              <img src="" alt="">
             </div>
           </div>
         </div>
@@ -157,12 +316,12 @@
                 Use AI App Cost Calculator To Estimate Your Idea
               </h2>
   
-              <p class="font-text-20">
+              <p class="font-text-20__alt">
                 A SaaS platform for private clinics that streamlined patient onboarding, records, and communication
               </p>
             </hgroup>
   
-            <a href="" class="btn-second-alt3 font-heading-24 container-app__btn">
+            <a href="ai__calculator.html" class="btn-second-alt3 font-heading-24__alt container-app__btn">
               Estimate My Idea >
             </a>
           </div>
@@ -192,7 +351,7 @@
               <div class="block-functionality">
                 <div class="block-functionality__box">
                   <div class="block-functionality__box-img">
-                    <img src="src/img/fun__wifi.svg" alt="">
+                    <img src="src/img/con__25.svg" alt="">
                   </div>
     
                   <hgroup class="block-functionality__box-hgroup">
@@ -200,27 +359,27 @@
                       Unstable Connectivity
                     </h3>
                     <p class="font-text-20 functionality-box__hgroup-text">
-                      Maritime crews often operate without internet access, rendering standard planners ineffective.
+                      Crews frequently operate without internet access, making cloud-dependent tools unreliable.
                     </p>
                   </hgroup>
                 </div>
                 <div class="block-functionality__box">
                   <div class="block-functionality__box-img">
-                    <img src="src/img/fun__anchor.svg" alt="">
+                    <img src="src/img/con__26.svg" alt="">
                   </div>
     
                   <hgroup class="block-functionality__box-hgroup">
                     <h3 class="font-heading-28 functionality-box__hgroup-title">
-                      High Cost of Mistakes
+                      HIGH COST OF ERRORS
                     </h3>
                     <p class="font-text-20 functionality-box__hgroup-text">
-                      Planning errors had a direct impact on crew safety and operational outcomes.
+                      Routing mistakes directly impact crew safety, fuel usage, and operational outcomes.
                     </p>
                   </hgroup>
                 </div>
                 <div class="block-functionality__box">
                   <div class="block-functionality__box-img">
-                    <img src="src/img/fun__people.svg" alt="">
+                    <img src="src/img/con__27.svg" alt="">
                   </div>
     
                   <hgroup class="block-functionality__box-hgroup">
@@ -228,55 +387,52 @@
                       Multi-Role Complexity
                     </h3>
                     <p class="font-text-20 functionality-box__hgroup-text">
-                      Different crew roles required distinct workflows and permission levels.
+                      Captains, crew, and coordinators require distinct workflows and permission layers.
                     </p>
                   </hgroup>
                 </div>
                 <div class="block-functionality__box">
                   <div class="block-functionality__box-img">
-                    <img src="src/img/fun__calendar.svg" alt="">
+                    <img src="src/img/con__28.svg" alt="">
                   </div>
     
                   <hgroup class="block-functionality__box-hgroup">
                     <h3 class="font-heading-28 functionality-box__hgroup-title">
-                      Long-Duration Events
+                      LONG-DURATION VOYAGES
                     </h3>
                     <p class="font-text-20 functionality-box__hgroup-text">
-                      Multi-day and multi-week sea voyages did not fit traditional calendar tools.
+                      Multi-day and multi-week journeys exceed the limits of traditional calendar tools.
                     </p>
                   </hgroup>
                 </div>
               </div>
             </div>
 
-            <div>
-              <img src="" alt="">
+            <div class="container-functionality__img">
+              <img src="src/img/sai__img-03.png" alt="">
             </div>
           </div>
         </div>
       </section>
 
-      <!-- section-pub -->
-      <section class="section-pub">
+      <!-- section-insight -->
+      <section class="section-insight">
         <div class="_container">
-          <div class="container-pub__alt">
-            <div class="container-pub__img">
-              <img src="" alt="">
-            </div>
-
-            <div class="section-head section-head__alt section-ai__head">
-              <span class="hgroup-head__up font-heading-28">
+          <div class="container-insight">
+            <div class="container-insight__head">
+              <span class="container-insight__head__up font-heading-32">
                 The turning point
               </span>
+              <h2 class="container-insight__head__title font-heading-64">
+                The Insight
+              </h2>
+            </div>
   
-              <hgroup class="hgroup-head">
-                <h2 class="hgroup-head__title font-heading-64">
-                  The Insight
-                </h2>
-                <p class=" font-text-24 ">
-                  The core challenge was to design a system that operates reliably using an offline-first approach,adapts the interface and data presentation based on user roles and scales from individual sailors to organized teams and training centers.
-                </p>
-              </hgroup>
+            <div class="container-insight__block">
+              <p class="container-insight__block-text font-text-24 ">
+                The challenge was reliability under constraint, not planning itself.
+                We needed a system that works offline by default, adapts to user roles automatically, and scales from individual sailors to structured maritime teams without increasing cognitive load.
+              </p>
             </div>
           </div>
         </div>
@@ -285,7 +441,11 @@
       <!-- section-functionality -->
       <section class="section-functionality">
         <div class="_container">
-          <div class="core-functionality">
+          <div class="core-functionality__alt">
+            <div class="container-functionality__img">
+              <img src="src/img/sai__img-04.png" alt="">
+            </div>
+
             <div class="container-functionality">
               <div class="section-head section-head__alt section-ai__head">
                 <span class="hgroup-head__up font-heading-28">
@@ -297,7 +457,7 @@
                     The Breakthrough Solutions
                   </h2>
                   <p class=" font-text-24 ">
-                    Based on research, several deliberate decisions were made:
+                    Based on research and field analysis, we focused on four structural decisions:
                   </p>
                 </hgroup>
               </div>
@@ -305,21 +465,21 @@
               <div class="block-functionality">
                 <div class="block-functionality__box">
                   <div class="block-functionality__box-img">
-                    <img src="src/img/fun__wifi-2.svg" alt="">
+                    <img src="src/img/con__29.svg" alt="">
                   </div>
     
                   <hgroup class="block-functionality__box-hgroup">
                     <h3 class="font-heading-28 functionality-box__hgroup-title">
-                      Offline-First Architecture
+                      OFFLINE-FIRST ARCHITECTURE
                     </h3>
                     <p class="font-text-20 functionality-box__hgroup-text">
-                      The application remains fully functional without internet connectivity, ensuring reliability at sea.
+                      Full functionality without internet access, with background sync when available.
                     </p>
                   </hgroup>
                 </div>
                 <div class="block-functionality__box">
                   <div class="block-functionality__box-img">
-                    <img src="src/img/fun__compass.svg" alt="">
+                    <img src="src/img/con__30.svg" alt="">
                   </div>
     
                   <hgroup class="block-functionality__box-hgroup">
@@ -327,43 +487,39 @@
                       Role-Adaptive Workflows
                     </h3>
                     <p class="font-text-20 functionality-box__hgroup-text">
-                      Interfaces and data views automatically adjust based on user roles onboard.
+                      Interfaces dynamically adjust based on onboard responsibilities.
                     </p>
                   </hgroup>
                 </div>
                 <div class="block-functionality__box">
                   <div class="block-functionality__box-img">
-                    <img src="src/img/fun__calendar.svg" alt="">
+                    <img src="src/img/con__31.svg" alt="">
                   </div>
     
                   <hgroup class="block-functionality__box-hgroup">
                     <h3 class="font-heading-28 functionality-box__hgroup-title">
-                      Voyage-Centric Planning
+                      VOYAGE-CENTRIC STRUCTURE
                     </h3>
                     <p class="font-text-20 functionality-box__hgroup-text">
-                      Multi-day sea journeys are visualized through clear timelines designed for maritime use.
+                      Planning is organized around journeys, not isolated tasks.
                     </p>
                   </hgroup>
                 </div>
                 <div class="block-functionality__box">
                   <div class="block-functionality__box-img">
-                    <img src="src/img/fun__protector.svg" alt="">
+                    <img src="src/img/con__32.svg" alt="">
                   </div>
     
                   <hgroup class="block-functionality__box-hgroup">
                     <h3 class="font-heading-28 functionality-box__hgroup-title">
-                      Safety-Oriented UX
+                      SAFETY-ORIENTED UX
                     </h3>
                     <p class="font-text-20 functionality-box__hgroup-text">
-                      Critical data is surfaced clearly to minimize errors under physical and cognitive load
+                      Critical data is prioritized to reduce errors under physical and cognitive stress.
                     </p>
                   </hgroup>
                 </div>
               </div>
-            </div>
-
-            <div>
-              <img src="" alt="">
             </div>
           </div>
         </div>
@@ -387,43 +543,43 @@
           <div class="container-challenges">
             <div class="card-challenges">
               <div class="card-challenges__img">
-                <img src="src/img/process-card__img-1.svg" alt="">
+                <img src="src/img/in__07.svg" alt="">
               </div>
 
               <hgroup class="card-challenges__hgroup">
                 <h3 class="font-heading-28 card-challenges__hgroup-title">
-                  Offline-First Data Storage
+                  OFFLINE-FIRST DATA STORAGE
                 </h3>
                 <p class="font-text-20 card-challenges__hgroup-text">
-                  All critical voyage data is stored locally and synced when connectivity is available.
+                  All critical voyage data is stored locally with conflict-safe synchronization.
                 </p>
               </hgroup>
             </div>
             <div class="card-challenges">
               <div class="card-challenges__img">
-                <img src="src/img/process-card__img-2.svg" alt="">
+                <img src="src/img/in__08.svg" alt="">
               </div>
 
               <hgroup class="card-challenges__hgroup">
                 <h3 class="font-heading-28 card-challenges__hgroup-title">
-                  Route Visualization Engine
+                  ROUTE VISUALIZATION ENGINE
                 </h3>
                 <p class="font-text-20 card-challenges__hgroup-text">
-                  Sea routes are displayed clearly with waypoints and timelines.
+                  Clear route mapping with structured waypoints and timeline logic.
                 </p>
               </hgroup>
             </div>
             <div class="card-challenges">
               <div class="card-challenges__img">
-                <img src="src/img/process-card__img-3.svg" alt="">
+                <img src="src/img/in__09.svg" alt="">
               </div>
 
               <hgroup class="card-challenges__hgroup">
                 <h3 class="font-heading-28 card-challenges__hgroup-title">
-                  Automatic Activity Logging
+                  AUTOMATIC ACTIVITY LOGGING
                 </h3>
                 <p class="font-text-20 card-challenges__hgroup-text">
-                  Key events are recorded with minimal user input.
+                  Operational events are automatically recorded with minimal manual input.
                 </p>
               </hgroup>
             </div>
@@ -432,163 +588,168 @@
       </section>
 
       <!-- section-tech -->
-      <section class="section-tech_two">
-
-        <div class="_container _container-tech blue-section">
-          <div class="core-tech">
-            <hgroup class="core-tech__hgroup">
-              <h2 class="container-tech-title font-heading-64">
-                Business Results
-              </h2>
-              <p class="font-text-24">
-                Reliability and Engagement in Offline-First Conditions
-              </p>
-            </hgroup>
-
-            <div class="container-tech">
-              <div class="tech-card">
-                <span class="number font-heading-72">
-                  55%
-                </span>
+      <section class="section-tech_two"> 
+        <div class="_container-tech">
+          <div class="_container blue-section">
+            <div class="core-tech">
+              <hgroup class="core-tech__hgroup">
+                <h2 class="container-tech-title font-heading-64">
+                  Business Results
+                </h2>
+              </hgroup>
   
-                <hgroup class="tech-card__hgroup">
-                  <p class="tech-card__hgroup-text font-text-20">
-                    User activity
-                  </p>
-                </hgroup>
-              </div>
-
-              <div class="tech-card">
-                <span class="number font-heading-72">
-                  45%
-                </span>
-  
-                <hgroup class="tech-card__hgroup">
-                  <p class="tech-card__hgroup-text font-text-20">
-                    Retention
-                  </p>
-                </hgroup>
-              </div>
-  
-              <div class="tech-card">
-                <span class="number font-heading-72">
-                  200%
-                </span>
-  
-                <hgroup class="tech-card__hgroup">
-                  <p class="tech-card__hgroup-text font-text-20">
-                    Average session duration
-                  </p>
-                </hgroup>
-              </div>
-  
-              <div class="tech-card">
-                <span class="number font-heading-72">
-                  90%
-                </span>
-  
-                <hgroup class="tech-card__hgroup">
-                  <p class="tech-card__hgroup-text font-text-20">
-                    Data loss
-                  </p>
-                </hgroup>
-              </div>
-
-              <div class="tech-card">
-                <span class="number font-heading-72">
-                  99.8%
-                </span>
-  
-                <hgroup class="tech-card__hgroup">
-                  <p class="tech-card__hgroup-text font-text-20">
-                    Reliability
-                  </p>
-                </hgroup>
-              </div>
-            </div>
-
-          </div>
-        </div>
-        
-        <div class="_container-alt2">
-          <div class="block-tech_two">
-            <hgroup class="block-tech_two-hgroup">
-              <h3 class="font-heading-40">
-                What Clients Say
-              </h3>
-            </hgroup>
-  
-            <div class="block-tech_three-box">
-              <div class="block-alt__tech-card">
-                <div class="block-alt__tech-card__img">
-                  <img src="src/img/card-comments__img-7.png" alt="">
-                </div>
-
-                <hgroup class="block-alt__tech-card__hgroup">
-                  <h3 class="font-heading-28">
-                    Benjamin Carter
-                    <span class="block-alt__tech-card__hgroup-img">
-                      <img src="src/img/card-tech__alt-img-1.svg" alt="">
+              <div class="container-tech">
+                <div class="tech-card">
+                  <span class="number-alt font-heading-72-alt">
+                    +45
+                    <span class="number-procent font-heading-32">
+                      %
                     </span>
-                  </h3>
-                  <p class="font-text-20">
-                    CEO, Sailor Planner
-                  </p>
-                </hgroup>
-
-                <p class="font-text-20">
-                  “We wanted a tool sailors would trust at sea. The offline-first approach was critical. Users rely on it during real voyages, which is the strongest validation.”
-                </p>
-              </div>
-              <div class="block-alt__tech-card">
-                <div class="block-alt__tech-card__img">
-                  <img src="src/img/card-comments__img-8.png" alt="">
+                  </span>
+    
+                  <hgroup class="tech-card__hgroup">
+                    <p class="tech-card__hgroup-text font-text-20__alt">
+                      faster trip <br> planning
+                    </p>
+                  </hgroup>
                 </div>
-
-                <hgroup class="block-alt__tech-card__hgroup">
-                  <h3 class="font-heading-28">
-                    Alexander Hughes
-                    <span class="block-alt__tech-card__hgroup-img">
-                      <img src="src/img/card-tech__alt-img-1.svg" alt="">
+  
+                <div class="tech-card">
+                  <span class="number-alt font-heading-72-alt">
+                    -35
+                    <span class="number-procent font-heading-32">
+                      %
                     </span>
-                  </h3>
-                  <p class="font-text-20">
-                    COO, Sailor Planner
-                  </p>
-                </hgroup>
-
-                <p class="font-text-20">
-                   “Planning errors decreased significantly after adoption. The role-based workflows reduced confusion onboard. Safety improved as a result.”
-                </p>
-              </div>
-              <div class="block-alt__tech-card">
-                <div class="block-alt__tech-card__img">
-                  <img src="src/img/card-comments__img-9.png" alt="">
+                  </span>
+    
+                  <hgroup class="tech-card__hgroup">
+                    <p class="tech-card__hgroup-text font-text-20__alt">
+                      reduction <br> preparation time
+                    </p>
+                  </hgroup>
                 </div>
-
-                <hgroup class="block-alt__tech-card__hgroup">
-                  <h3 class="font-heading-28">
-                    Nicholas Parker
-                    <span class="block-alt__tech-card__hgroup-img">
-                      <img src="src/img/card-tech__alt-img-1.svg" alt="">
+    
+                <div class="tech-card">
+                  <span class="number-alt font-heading-72-alt">
+                    +92
+                    <span class="number-procent font-heading-32">
+                      %
                     </span>
-                  </h3>
-                  <p class="font-text-20">
-                    CTO, Sailor Planner
-                  </p>
-                </hgroup>
-
-                <p class="font-text-20">
-                  “The architecture handles unreliable connectivity gracefully. Sync works exactly as expected. This reliability sets the product apart.”
-                </p>
+                  </span>
+    
+                  <hgroup class="tech-card__hgroup">
+                    <p class="tech-card__hgroup-text font-text-20__alt">
+                      navigation <br> accuracy
+                    </p>
+                  </hgroup>
+                </div>
+    
+                <div class="tech-card">
+                  <span class="number-alt font-heading-72-alt">
+                    +63
+                    <span class="number-procent font-heading-32">
+                      %
+                    </span>
+                  </span>
+                  
+                  <hgroup class="tech-card__hgroup">
+                    <p class="tech-card__hgroup-text font-text-20__alt">
+                      faster crew <br> coordination
+                    </p>
+                  </hgroup>
+                </div>
+                
+                <div class="tech-card">
+                  <span class="number-alt font-heading-72-alt">
+                    +38
+                    <span class="number-procent font-heading-32">
+                      %
+                    </span>
+                  </span>
+    
+                  <hgroup class="tech-card__hgroup">
+                    <p class="tech-card__hgroup-text font-text-20__alt">
+                      safer route <br> optimization
+                    </p>
+                  </hgroup>
+                </div>
               </div>
+  
             </div>
           </div>
         </div>
+          
+          <div class="_container-alt2">
+            <div class="block-tech_two">
+              <hgroup class="block-tech_two-hgroup">
+                <h3 class="font-heading-40">
+                  What Clients Say
+                </h3>
+              </hgroup>
+    
+              <div class="block-tech_three-box">
+                <div class="block-alt__tech-card">
+                  <div class="block-alt__tech-card__img">
+                    <img src="src/img/img__10.png" alt="">
+                  </div>
+  
+                  <hgroup class="block-alt__tech-card__hgroup">
+                    <h3 class="font-heading-28">
+                      Benjamin Carter
+                    </h3>
+                    <p class="font-text-20">
+                      CEO, Sailor Planner
+                    </p>
+                  </hgroup>
+  
+                  <p class="font-text-20">
+                    “We wanted a tool sailors would trust at sea. The offline-first approach was critical. Users rely on it during real voyages, which is the strongest validation.”
+                  </p>
+                </div>
+                <div class="block-alt__tech-card">
+                  <div class="block-alt__tech-card__img">
+                    <img src="src/img/img__11.png" alt="">
+                  </div>
+  
+                  <hgroup class="block-alt__tech-card__hgroup">
+                    <h3 class="font-heading-28">
+                      Alexander Hughes
+                    </h3>
+                    <p class="font-text-20">
+                      COO, Sailor Planner
+                    </p>
+                  </hgroup>
+  
+                  <p class="font-text-20">
+                     “Planning errors decreased significantly after adoption. The role-based workflows reduced confusion onboard. Safety improved as a result.”
+                  </p>
+                </div>
+                <div class="block-alt__tech-card">
+                  <div class="block-alt__tech-card__img">
+                    <img src="src/img/img__12.png" alt="">
+                  </div>
+  
+                  <hgroup class="block-alt__tech-card__hgroup">
+                    <h3 class="font-heading-28">
+                      Matthew Walker
+                    </h3>
+                    <p class="font-text-20">
+                      CTO , Verbatica
+                    </p>
+                  </hgroup>
+  
+                  <p class="font-text-20">
+                    “The modular AI architecture allows continuous improvement. New models integrate without disrupting the system. This ensures long-term evolution.”
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
       </section>
 
       <!-- section-other-cases -->
-      <section class="section-other-cases">
+       <section class="section-other-cases">
+
         <div class="_container-alt">
           <div class="section-head">
             <span class="hgroup-head__up font-heading-28">
@@ -607,695 +768,911 @@
 
           <div class="core-grab">
             <div class="container-grab drag-scroll">
-              <div class="card-portfolio card-other">
-                <div class="card-portfolio__img">
-                  <img src="" alt="">
-                </div>
-  
-                <div class="card-portfolio__content">
-                  <div class="card-portfolio__content-head">
-                    <div class="card-portfolio__content-block__head">
-                      <h3 class="card-portfolio__head-title font-heading-40">
-                        <span class="card-portfolio__title-img">
-                          <img src="src/img/card-port__img-1.svg" alt="">
-                        </span>
-                        Vodacom
-                      </h3>
-  
-                      <div class="card-portfolio__head-grade">
-                        <span class="card-portfolio__grade-number font-heading-20">
-                          4.9
-                        </span>
-                        <span class="card-portfolio__grade-img">
-                          <img src="src/img/case-star.svg" alt="">
-                        </span>
-                      </div>
-                    </div>
-  
-                    <p class="font-text-20 card-portfolio__content-block__text">
-                      Healthcare
-                    </p>
-                  </div>
-  
-                  <p class="font-text-20 card-portfolio__content-text">
-                    A SaaS platform for private clinics that streamlined patient onboarding, records, and communication. With AI assistants and a secure cloud architecture, clinics reduced admin load ...
+              <div class="card-portfolio  card-portfolio__alt">
+                <div class="card-block__prew">
+                  <p class="font-heading-24 card-prew">
+                    E-commerce
                   </p>
                 </div>
-  
+
+                <div class="card-portfolio__img">
+                  <img src="src/img/card-portfolio__01.png" alt="">
+                </div>
+
+                <div class="card-portfolio__content">
+                  <div class="card-portfolio__content-head">
+                    <h3 class="card-portfolio__head-title font-heading-40">
+                      <span class="card-portfolio__title-img">
+                        <img src="src/img/case-lamoda.svg" alt="">
+                      </span>
+                      Jet Hunter
+                    </h3>
+
+                    <div class="card-portfolio__head-grade">
+                      <span class="card-portfolio__grade-number font-heading-20">
+                        4.9
+                      </span>
+                      <span class="card-portfolio__grade-img">
+                        <img src="src/img/case-star.svg" alt="">
+                      </span>
+                    </div>
+                  </div>
+
+                  <p class="font-text-20 card-portfolio__content-text">
+                    Jet Hunter is a real-time private aviation platform built on live aircraft availability, dynamic pricing, and instant booking logic. By removing manual broker workflows and back-and-forth coordination, the platform enables users to book charter flights in minutes instead of hours, while operators gain predictable demand and streamlined fleet management.
+                  </p>
+                </div>
+
                 <div class="card-portfolio_block">
-                  <div class="card-portfolio_block-box">
-                    <span class="card-portfolio_box-title font-heading-28">
-                      2.4×
-                    </span>
-                    <span class="card-portfolio_box-text font-heading-20">
-                      digital adoption
-                    </span>
+                  <div class="case-card__block-box">
+                    <div class="case-card__box-indicators">
+                      <span class="case-card__indicators-img">
+                        <img src="src/img/icon__01.svg" alt="">
+                      </span>
+                      <p class="case-card__indicators-text font-heading-28">
+                        +200
+                        <span>
+                          %
+                        </span>
+                      </p>
+                    </div>
+
+                    <p class="case-card__box-text font-heading-20">
+                      Repeat Bookings
+                    </p>
                   </div>
-                  <div class="card-portfolio_block-box">
-                    <span class="card-portfolio_box-title font-heading-28">
-                      6.1%
-                    </span>
-                    <span class="card-portfolio_box-text font-heading-20">
-                      Churn down
-                    </span>
+                  <div class="case-card__block-box">
+                    <div class="case-card__box-indicators">
+                      <span class="case-card__indicators-img">
+                        <img src="src/img/icon__02.svg" alt="">
+                      </span>
+                      <p class="case-card__indicators-text font-heading-28">
+                        +41
+                        <span>
+                          %
+                        </span>
+                      </p>
+                    </div>
+
+                    <p class="case-card__box-text font-heading-20">
+                      Checkout Conversion
+                    </p>
                   </div>
-                  <div class="card-portfolio_block-box">
-                    <span class="card-portfolio_box-title font-heading-28">
-                      $180M
-                    </span>
-                    <span class="card-portfolio_box-text font-heading-20">
-                      new annual revenue
-                    </span>
+                  <div class="case-card__block-box">
+                    <div class="case-card__box-indicators">
+                      <span class="case-card__indicators-img">
+                        <img src="src/img/case-target.svg" alt="">
+                      </span>
+                      <p class="case-card__indicators-text font-heading-28">
+                        -35
+                        <span>
+                          %
+                        </span>
+                      </p>
+                    </div>
+
+                    <p class="case-card__box-text font-heading-20">
+                      Booking Time
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="card-portfolio  card-portfolio__alt">
+                <div class="card-block__prew">
+                  <p class="font-heading-24 card-prew">
+                    AI & Automation
+                  </p>
+                  <p class="font-heading-24 card-prew">
+                    E-commerce
+                  </p>
+                </div>
+
+                <div class="card-portfolio__img">
+                  <img src="src/img/card-portfolio__02.png" alt="">
+                </div>
+
+                <div class="card-portfolio__content">
+                  <div class="card-portfolio__content-head">
+                    <h3 class="card-portfolio__head-title font-heading-40">
+                      <span class="card-portfolio__title-img">
+                        <img src="src/img/case-coin.svg" alt="">
+                      </span>
+                      Vodacom
+                    </h3>
+
+                    <div class="card-portfolio__head-grade">
+                      <span class="card-portfolio__grade-number font-heading-20">
+                        4.9
+                      </span>
+                      <span class="card-portfolio__grade-img">
+                        <img src="src/img/case-star.svg" alt="">
+                      </span>
+                    </div>
+                  </div>
+
+                  <p class="font-text-20 card-portfolio__content-text">
+                    A SaaS platform for water delivery businesses that automates recurring orders, demand forecasting, and customer reordering through AI. By reducing manual operations and optimizing delivery frequency, companies lower logistics costs while improving customer retention and order predictability
+                  </p>
+                </div>
+
+                <div class="card-portfolio_block">
+                  <div class="case-card__block-box">
+                    <div class="case-card__box-indicators">
+                      <span class="case-card__indicators-img">
+                        <img src="src/img/icon__04.svg" alt="">
+                      </span>
+                      <p class="case-card__indicators-text font-heading-28">
+                        -40
+                        <span>
+                          %
+                        </span>
+                      </p>
+                    </div>
+
+                    <p class="case-card__box-text font-heading-20">
+                      Cost Reduction
+                    </p>
+                  </div>
+                  <div class="case-card__block-box">
+                    <div class="case-card__box-indicators">
+                      <span class="case-card__indicators-img">
+                        <img src="src/img/icon__05.svg" alt="">
+                      </span>
+                      <p class="case-card__indicators-text font-heading-28">
+                        +231
+                        <span>
+                          %
+                        </span>
+                      </p>
+                    </div>
+
+                    <p class="case-card__box-text font-heading-20">
+                      Order Frequency
+                    </p>
+                  </div>
+                  <div class="case-card__block-box">
+                    <div class="case-card__box-indicators">
+                      <span class="case-card__indicators-img">
+                        <img src="src/img/icon__06.svg" alt="">
+                      </span>
+                      <p class="case-card__indicators-text font-heading-28">
+                        +186
+                        <span>
+                          %
+                        </span>
+                      </p>
+                    </div>
+
+                    <p class="case-card__box-text font-heading-20">
+                      Repeat Orders
+                    </p>
                   </div>
                 </div>
               </div>
 
-              <div class="card-portfolio card-other">
-                <div class="card-portfolio__img">
-                  <img src="" alt="">
-                </div>
-  
-                <div class="card-portfolio__content">
-                  <div class="card-portfolio__content-head">
-                    <div class="card-portfolio__content-block__head">
-                      <h3 class="card-portfolio__head-title font-heading-40">
-                        <span class="card-portfolio__title-img">
-                          <img src="src/img/card-port__img-1.svg" alt="">
-                        </span>
-                        Rocket Jet
-                      </h3>
-  
-                      <div class="card-portfolio__head-grade">
-                        <span class="card-portfolio__grade-number font-heading-20">
-                          4.8
-                        </span>
-                        <span class="card-portfolio__grade-img">
-                          <img src="src/img/case-star.svg" alt="">
-                        </span>
-                      </div>
-                    </div>
-  
-                    <p class="font-text-20 card-portfolio__content-block__text">
-                      E-commerce
-                    </p>
-                  </div>
-  
-                  <p class="font-text-20 card-portfolio__content-text">
-                    Rocket Jet is a mission-critical digital platform powering private charter flights at a global scale. We partnered with Rocket Jet as a strategic technology provider, designing and ...
+              <div class="card-portfolio  card-portfolio__alt">
+                <div class="card-block__prew">
+                  <p class="font-heading-24 card-prew">
+                    AI & Automation
+                  </p>
+                  <p class="font-heading-24 card-prew">
+                    Education
                   </p>
                 </div>
-  
+
+                <div class="card-portfolio__img">
+                  <img src="src/img/card-portfolio__03.png" alt="">
+                </div>
+
+                <div class="card-portfolio__content">
+                  <div class="card-portfolio__content-head">
+                    <h3 class="card-portfolio__head-title font-heading-40">
+                      <span class="card-portfolio__title-img">
+                        <img src="src/img/verbatica.svg" alt="">
+                      </span>
+                      Verbatica
+                    </h3>
+
+                    <div class="card-portfolio__head-grade">
+                      <span class="card-portfolio__grade-number font-heading-20">
+                        4.9
+                      </span>
+                      <span class="card-portfolio__grade-img">
+                        <img src="src/img/case-star.svg" alt="">
+                      </span>
+                    </div>
+                  </div>
+
+                  <p class="font-text-20 card-portfolio__content-text">
+                    Verbatica is an AI-powered learning platform that personalizes education paths in real time. It replaces static curricula with adaptive programs that scale across thousands of learners without increasing operational load.
+                  </p>
+                </div>
+
                 <div class="card-portfolio_block">
-                  <div class="card-portfolio_block-box">
-                    <span class="card-portfolio_box-title font-heading-28">
-                      3 X
-                    </span>
-                    <span class="card-portfolio_box-text font-heading-20">
-                      orders per user
-                    </span>
+                  <div class="case-card__block-box">
+                    <div class="case-card__box-indicators">
+                      <span class="case-card__indicators-img">
+                        <img src="src/img/icon__03.svg" alt="">
+                      </span>
+                      <p class="case-card__indicators-text font-heading-28">
+                        -51
+                        <span>
+                          %
+                        </span>
+                      </p>
+                    </div>
+
+                    <p class="case-card__box-text font-heading-20">
+                      Learning Time
+                    </p>
                   </div>
-                  <div class="card-portfolio_block-box">
-                    <span class="card-portfolio_box-title font-heading-28">
-                      41%
-                    </span>
-                    <span class="card-portfolio_box-text font-heading-20">
-                      checkout conversion
-                    </span>
+                  <div class="case-card__block-box">
+                    <div class="case-card__box-indicators">
+                      <span class="case-card__indicators-img">
+                        <img src="src/img/icon__07.svg" alt="">
+                      </span>
+                      <p class="case-card__indicators-text font-heading-28">
+                        +67
+                        <span>
+                          %
+                        </span>
+                      </p>
+                    </div>
+
+                    <p class="case-card__box-text font-heading-20">
+                      Course Completion
+                    </p>
                   </div>
-                  <div class="card-portfolio_block-box">
-                    <span class="card-portfolio_box-title font-heading-28">
-                      $12
-                    </span>
-                    <span class="card-portfolio_box-text font-heading-20">
-                      CAC cut
-                    </span>
+                  <div class="case-card__block-box">
+                    <div class="case-card__box-indicators">
+                      <span class="case-card__indicators-img">
+                        <img src="src/img/icon__08.svg" alt="">
+                      </span>
+                      <p class="case-card__indicators-text font-heading-28">
+                        +32
+                        <span>
+                          %
+                        </span>
+                      </p>
+                    </div>
+
+                    <p class="case-card__box-text font-heading-20">
+                      Student Engagement
+                    </p>
                   </div>
                 </div>
               </div>
-              
-              <div class="card-portfolio card-other">
-                <div class="card-portfolio__img">
-                  <img src="" alt="">
-                </div>
-  
-                <div class="card-portfolio__content">
-                  <div class="card-portfolio__content-head">
-                    <div class="card-portfolio__content-block__head">
-                      <h3 class="card-portfolio__head-title font-heading-40">
-                        <span class="card-portfolio__title-img">
-                          <img src="src/img/card-port__img-1.svg" alt="">
-                        </span>
-                        Sailor Planner
-                      </h3>
-  
-                      <div class="card-portfolio__head-grade">
-                        <span class="card-portfolio__grade-number font-heading-20">
-                          4.6
-                        </span>
-                        <span class="card-portfolio__grade-img">
-                          <img src="src/img/case-star.svg" alt="">
-                        </span>
-                      </div>
-                    </div>
-  
-                    <p class="font-text-20 card-portfolio__content-block__text">
-                      Travel Tech
-                    </p>
-                  </div>
-  
-                  <p class="font-text-20 card-portfolio__content-text">
-                    Sailor Planner is a cross-platform application for tracking and planning sea voyages, designed for skippers, crews, and sailing organizations operating in unpredictable offshore conditions...
+
+              <div class="card-portfolio  card-portfolio__alt">
+                <div class="card-block__prew">
+                  <p class="font-heading-24 card-prew">
+                    Logistics
+                  </p>
+                  <p class="font-heading-24 card-prew">
+                    B2B SaaS
                   </p>
                 </div>
-  
+
+                <div class="card-portfolio__img">
+                  <img src="src/img/card-portfolio__04.png" alt="">
+                </div>
+
+                <div class="card-portfolio__content">
+                  <div class="card-portfolio__content-head">
+                    <h3 class="card-portfolio__head-title font-heading-40">
+                      <span class="card-portfolio__title-img">
+                        <img src="src/img/sailor.svg" alt="">
+                      </span>
+                      Sailor Planner
+                    </h3>
+
+                    <div class="card-portfolio__head-grade">
+                      <span class="card-portfolio__grade-number font-heading-20">
+                        4.9
+                      </span>
+                      <span class="card-portfolio__grade-img">
+                        <img src="src/img/case-star.svg" alt="">
+                      </span>
+                    </div>
+                  </div>
+
+                  <p class="font-text-20 card-portfolio__content-text">
+                    Sailor Planner is a cross-platform voyage planning system built for crews operating in unstable offshore environments. It consolidates routing logic, vessel data, and operational workflows into a single offline-capable interface.
+                    We engineered a resilient architecture and domain-driven UX that reduce manual coordination and enable faster, safer decision-making at sea, even with limited connectivity.
+                  </p>
+                </div>
+
                 <div class="card-portfolio_block">
-                  <div class="card-portfolio_block-box">
-                    <span class="card-portfolio_box-title font-heading-28">
-                      2.7×
-                    </span>
-                    <span class="card-portfolio_box-text font-heading-20">
-                      customer lifetime value
-                    </span>
+                  <div class="case-card__block-box">
+                    <div class="case-card__box-indicators">
+                      <span class="case-card__indicators-img">
+                        <img src="src/img/icon__09.svg" alt="">
+                      </span>
+                      <p class="case-card__indicators-text font-heading-28">
+                        -45
+                        <span>
+                          %
+                        </span>
+                      </p>
+                    </div>
+
+                    <p class="case-card__box-text font-heading-20">
+                      Route Planning Time
+                    </p>
                   </div>
-                  <div class="card-portfolio_block-box">
-                    <span class="card-portfolio_box-title font-heading-28">
-                      52%
-                    </span>
-                    <span class="card-portfolio_box-text font-heading-20">
-                      free-to-paid activation
-                    </span>
+                  <div class="case-card__block-box">
+                    <div class="case-card__box-indicators">
+                      <span class="case-card__indicators-img">
+                        <img src="src/img/icon__10.svg" alt="">
+                      </span>
+                      <p class="case-card__indicators-text font-heading-28">
+                        +38
+                        <span>
+                          %
+                        </span>
+                      </p>
+                    </div>
+
+                    <p class="case-card__box-text font-heading-20">
+                      Fleet Utilization
+                    </p>
                   </div>
-                  <div class="card-portfolio_block-box">
-                    <span class="card-portfolio_box-title font-heading-28">
-                      5 MIN
-                    </span>
-                    <span class="card-portfolio_box-text font-heading-20">
-                      FIRST VALUE TIME
-                    </span>
+                  <div class="case-card__block-box">
+                    <div class="case-card__box-indicators">
+                      <span class="case-card__indicators-img">
+                        <img src="src/img/icon__11.svg" alt="">
+                      </span>
+                      <p class="case-card__indicators-text font-heading-28">
+                        -30
+                        <span>
+                          %
+                        </span>
+                      </p>
+                    </div>
+
+                    <p class="case-card__box-text font-heading-20">
+                      Operational Errors
+                    </p>
                   </div>
                 </div>
               </div>
-  
-              <div class="card-portfolio card-other">
-                <div class="card-portfolio__img">
-                  <img src="" alt="">
-                </div>
-  
-                <div class="card-portfolio__content">
-                  <div class="card-portfolio__content-head">
-                    <div class="card-portfolio__content-block__head">
-                      <h3 class="card-portfolio__head-title font-heading-40">
-                        <span class="card-portfolio__title-img">
-                          <img src="src/img/card-port__img-1.svg" alt="">
-                        </span>
-                        Celtway
-                      </h3>
-  
-                      <div class="card-portfolio__head-grade">
-                        <span class="card-portfolio__grade-number font-heading-20">
-                          4.7
-                        </span>
-                        <span class="card-portfolio__grade-img">
-                          <img src="src/img/case-star.svg" alt="">
-                        </span>
-                      </div>
-                    </div>
-  
-                    <p class="font-text-20 card-portfolio__content-block__text">
-                      Ed Tech
-                    </p>
-                  </div>
-  
-                  <p class="font-text-20 card-portfolio__content-text">
-                    Celtway is a web-based Learning Management System (LMS) designed for schools, universities, and educational programs that require enterprise-level structure, control, and ...
+
+              <div class="card-portfolio  card-portfolio__alt">
+                <div class="card-block__prew">
+                  <p class="font-heading-24 card-prew">
+                    Education
+                  </p>
+                  <p class="font-heading-24 card-prew">
+                    B2B SaaS
                   </p>
                 </div>
-  
+
+                <div class="card-portfolio__img">
+                  <img src="src/img/card-portfolio__05.png" alt="">
+                </div>
+
+                <div class="card-portfolio__content">
+                  <div class="card-portfolio__content-head">
+                    <h3 class="card-portfolio__head-title font-heading-40">
+                      <span class="card-portfolio__title-img">
+                        <img src="src/img/celtway.svg" alt="">
+                      </span>
+                      Celtway
+                    </h3>
+
+                    <div class="card-portfolio__head-grade">
+                      <span class="card-portfolio__grade-number font-heading-20">
+                        4.9
+                      </span>
+                      <span class="card-portfolio__grade-img">
+                        <img src="src/img/case-star.svg" alt="">
+                      </span>
+                    </div>
+                  </div>
+
+                  <p class="font-text-20 card-portfolio__content-text">
+                    Celtway is a scalable Learning Management System built for institutions that require centralized control, academic consistency, and operational transparency across programs. We designed a unified architecture that connects courses, assessments, and analytics into one structured environment, enabling measurable performance improvements at scale.
+                  </p>
+                </div>
+
                 <div class="card-portfolio_block">
-                  <div class="card-portfolio_block-box">
-                    <span class="card-portfolio_box-title font-heading-28">
-                      $4.10
-                    </span>
-                    <span class="card-portfolio_box-text font-heading-20">
-                      cost per delivery
-                    </span>
+                  <div class="case-card__block-box">
+                    <div class="case-card__box-indicators">
+                      <span class="case-card__indicators-img">
+                        <img src="src/img/icon__12.svg" alt="">
+                      </span>
+                      <p class="case-card__indicators-text font-heading-28">
+                        -86
+                        <span>
+                          %
+                        </span>
+                      </p>
+                    </div>
+
+                    <p class="case-card__box-text font-heading-20">
+                      Administration
+                    </p>
                   </div>
-                  <div class="card-portfolio_block-box">
-                    <span class="card-portfolio_box-title font-heading-28">
-                      94%
-                    </span>
-                    <span class="card-portfolio_box-text font-heading-20">
-                      on-time rate
-                    </span>
+                  <div class="case-card__block-box">
+                    <div class="case-card__box-indicators">
+                      <span class="case-card__indicators-img">
+                        <img src="src/img/icon__08.svg" alt="">
+                      </span>
+                      <p class="case-card__indicators-text font-heading-28">
+                        +56
+                        <span>
+                          %
+                        </span>
+                      </p>
+                    </div>
+
+                    <p class="case-card__box-text font-heading-20">
+                      Сompletion Rate
+                    </p>
                   </div>
-                  <div class="card-portfolio_block-box">
-                    <span class="card-portfolio_box-title font-heading-28">
-                      1.8×
-                    </span>
-                    <span class="card-portfolio_box-text font-heading-20">
-                      route capacity
-                    </span>
+                  <div class="case-card__block-box">
+                    <div class="case-card__box-indicators">
+                      <span class="case-card__indicators-img">
+                        <img src="src/img/icon__13.svg" alt="">
+                      </span>
+                      <p class="case-card__indicators-text font-heading-28">
+                        +41
+                        <span>
+                          %
+                        </span>
+                      </p>
+                    </div>
+
+                    <p class="case-card__box-text font-heading-20">
+                      Scalability Efficiency
+                    </p>
                   </div>
                 </div>
               </div>
-  
-              <div class="card-portfolio card-other">
-                <div class="card-portfolio__img">
-                  <img src="" alt="">
-                </div>
-  
-                <div class="card-portfolio__content">
-                  <div class="card-portfolio__content-head">
-                    <div class="card-portfolio__content-block__head">
-                      <h3 class="card-portfolio__head-title font-heading-40">
-                        <span class="card-portfolio__title-img">
-                          <img src="src/img/card-port__img-1.svg" alt="">
-                        </span>
-                        She Talks
-                      </h3>
-  
-                      <div class="card-portfolio__head-grade">
-                        <span class="card-portfolio__grade-number font-heading-20">
-                          4.5
-                        </span>
-                        <span class="card-portfolio__grade-img">
-                          <img src="src/img/case-star.svg" alt="">
-                        </span>
-                      </div>
-                    </div>
-  
-                    <p class="font-text-20 card-portfolio__content-block__text">
-                      Ed Tech
-                    </p>
-                  </div>
-  
-                  <p class="font-text-20 card-portfolio__content-text">
-                    SHE.TALKS is a digital English learning platform designed to build a sustainable learning habit rather than simply deliver content.
+
+              <div class="card-portfolio  card-portfolio__alt">
+                <div class="card-block__prew">
+                  <p class="font-heading-24 card-prew">
+                    Education
                   </p>
                 </div>
-  
+
+                <div class="card-portfolio__img">
+                  <img src="src/img/card-portfolio__06.png" alt="">
+                </div>
+
+                <div class="card-portfolio__content">
+                  <div class="card-portfolio__content-head">
+                    <h3 class="card-portfolio__head-title font-heading-40">
+                      <span class="card-portfolio__title-img">
+                        <img src="src/img/she.svg" alt="">
+                      </span>
+                      SHE.TALKS
+                    </h3>
+
+                    <div class="card-portfolio__head-grade">
+                      <span class="card-portfolio__grade-number font-heading-20">
+                        4.9
+                      </span>
+                      <span class="card-portfolio__grade-img">
+                        <img src="src/img/case-star.svg" alt="">
+                      </span>
+                    </div>
+                  </div>
+
+                  <p class="font-text-20 card-portfolio__content-text">
+                    SHE.TALKS is a digital English learning platform built to develop consistent speaking habits, not just deliver lessons. We combined guided learning paths, live conversation practice, and peer interaction to increase engagement, retention, and long-term progress.
+                  </p>
+                </div>
+
                 <div class="card-portfolio_block">
-                  <div class="card-portfolio_block-box">
-                    <span class="card-portfolio_box-title font-heading-28">
-                      4.6×
-                    </span>
-                    <span class="card-portfolio_box-text font-heading-20">
-                      monthly audience growth
-                    </span>
+                  <div class="case-card__block-box">
+                    <div class="case-card__box-indicators">
+                      <span class="case-card__indicators-img">
+                        <img src="src/img/icon__08.svg" alt="">
+                      </span>
+                      <p class="case-card__indicators-text font-heading-28">
+                        +361
+                        <span>
+                          %
+                        </span>
+                      </p>
+                    </div>
+
+                    <p class="case-card__box-text font-heading-20">
+                      Monthly Growth
+                    </p>
                   </div>
-                  <div class="card-portfolio_block-box">
-                    <span class="card-portfolio_box-title font-heading-28">
-                      18 min
-                    </span>
-                    <span class="card-portfolio_box-text font-heading-20">
-                      avg session time
-                    </span>
+                  <div class="case-card__block-box">
+                    <div class="case-card__box-indicators">
+                      <span class="case-card__indicators-img">
+                        <img src="src/img/icon__03.svg" alt="">
+                      </span>
+                      <p class="case-card__indicators-text font-heading-28">
+                        +43
+                        <span>
+                          %
+                        </span>
+                      </p>
+                    </div>
+
+                    <p class="case-card__box-text font-heading-20">
+                      Avg. Session Time
+                    </p>
                   </div>
-                  <div class="card-portfolio_block-box">
-                    <span class="card-portfolio_box-title font-heading-28">
-                      3×
-                    </span>
-                    <span class="card-portfolio_box-text font-heading-20">
-                      subscription revenue
-                    </span>
+                  <div class="case-card__block-box">
+                    <div class="case-card__box-indicators">
+                      <span class="case-card__indicators-img">
+                        <img src="src/img/case-target.svg" alt="">
+                      </span>
+                      <p class="case-card__indicators-text font-heading-28">
+                        +35
+                        <span>
+                          %
+                        </span>
+                      </p>
+                    </div>
+
+                    <p class="case-card__box-text font-heading-20">
+                      Subscription Revenue
+                    </p>
                   </div>
                 </div>
               </div>
-  
-              <div class="card-portfolio card-other">
-                <div class="card-portfolio__img">
-                  <img src="" alt="">
-                </div>
-  
-                <div class="card-portfolio__content">
-                  <div class="card-portfolio__content-head">
-                    <div class="card-portfolio__content-block__head">
-                      <h3 class="card-portfolio__head-title font-heading-40">
-                        <span class="card-portfolio__title-img">
-                          <img src="src/img/card-port__img-1.svg" alt="">
-                        </span>
-                        Verbatica
-                      </h3>
-  
-                      <div class="card-portfolio__head-grade">
-                        <span class="card-portfolio__grade-number font-heading-20">
-                          4.9
-                        </span>
-                        <span class="card-portfolio__grade-img">
-                          <img src="src/img/case-star.svg" alt="">
-                        </span>
-                      </div>
-                    </div>
-  
-                    <p class="font-text-20 card-portfolio__content-block__text">
-                      Ed Tech
-                    </p>
-                  </div>
-  
-                  <p class="font-text-20 card-portfolio__content-text">
-                    Verbatica is an intelligent learning ecosystem that uses AI to personalize education, scale learning programs, and increase student engagement without increasing operational costs...
+
+              <div class="card-portfolio  card-portfolio__alt">
+                <div class="card-block__prew">
+                  <p class="font-heading-24 card-prew">
+                    Finance
                   </p>
                 </div>
-  
+
+                <div class="card-portfolio__img">
+                  <img src="src/img/card-portfolio__07.png" alt="">
+                </div>
+
+                <div class="card-portfolio__content">
+                  <div class="card-portfolio__content-head">
+                    <h3 class="card-portfolio__head-title font-heading-40">
+                      <span class="card-portfolio__title-img">
+                        <img src="src/img/bill.svg" alt="">
+                      </span>
+                      Bill Split
+                    </h3>
+
+                    <div class="card-portfolio__head-grade">
+                      <span class="card-portfolio__grade-number font-heading-20">
+                        4.9
+                      </span>
+                      <span class="card-portfolio__grade-img">
+                        <img src="src/img/case-star.svg" alt="">
+                      </span>
+                    </div>
+                  </div>
+
+                  <p class="font-text-20 card-portfolio__content-text">
+                    Bill Split is a mobile app for fast, transparent group expense management. Users can split bills in seconds, assign custom shares and see balances update automatically in real time. This product centralises all payments, reducing social friction and disputes. It supports large groups, uneven splits, and multi-currency scenarios.
+                  </p>
+                </div>
+
                 <div class="card-portfolio_block">
-                  <div class="card-portfolio_block-box">
-                    <span class="card-portfolio_box-title font-heading-28">
-                      54%
-                    </span>
-                    <span class="card-portfolio_box-text font-heading-20">
-                      tickets fully automated
-                    </span>
+                  <div class="case-card__block-box">
+                    <div class="case-card__box-indicators">
+                      <span class="case-card__indicators-img">
+                        <img src="src/img/icon__03.svg" alt="">
+                      </span>
+                      <p class="case-card__indicators-text font-heading-28">
+                        +280
+                        <span>
+                          %
+                        </span>
+                      </p>
+                    </div>
+
+                    <p class="case-card__box-text font-heading-20">
+                      Payment Volume
+                    </p>
                   </div>
-                  <div class="card-portfolio_block-box">
-                    <span class="card-portfolio_box-title font-heading-28">
-                      2.2×
-                    </span>
-                    <span class="card-portfolio_box-text font-heading-20">
-                      agent throughput
-                    </span>
+                  <div class="case-card__block-box">
+                    <div class="case-card__box-indicators">
+                      <span class="case-card__indicators-img">
+                        <img src="src/img/icon__07.svg" alt="">
+                      </span>
+                      <p class="case-card__indicators-text font-heading-28">
+                        99.8
+                        <span>
+                          %
+                        </span>
+                      </p>
+                    </div>
+
+                    <p class="case-card__box-text font-heading-20">
+                      Payment Rate
+                    </p>
                   </div>
-                  <div class="card-portfolio_block-box">
-                    <span class="card-portfolio_box-title font-heading-28">
-                      91%
-                    </span>
-                    <span class="card-portfolio_box-text font-heading-20">
-                      CSAT
-                    </span>
+                  <div class="case-card__block-box">
+                    <div class="case-card__box-indicators">
+                      <span class="case-card__indicators-img">
+                        <img src="src/img/icon__08.svg" alt="">
+                      </span>
+                      <p class="case-card__indicators-text font-heading-28">
+                        -70
+                        <span>
+                          %
+                        </span>
+                      </p>
+                    </div>
+
+                    <p class="case-card__box-text font-heading-20">
+                      Checkout Time
+                    </p>
                   </div>
                 </div>
               </div>
-  
-              <div class="card-portfolio card-other">
-                <div class="card-portfolio__img">
-                  <img src="" alt="">
-                </div>
-  
-                <div class="card-portfolio__content">
-                  <div class="card-portfolio__content-head">
-                    <div class="card-portfolio__content-block__head">
-                      <h3 class="card-portfolio__head-title font-heading-40">
-                        <span class="card-portfolio__title-img">
-                          <img src="src/img/card-port__img-1.svg" alt="">
-                        </span>
-                        Glavbankruptcy
-                      </h3>
-  
-                      <div class="card-portfolio__head-grade">
-                        <span class="card-portfolio__grade-number font-heading-20">
-                          4.6
-                        </span>
-                        <span class="card-portfolio__grade-img">
-                          <img src="src/img/case-star.svg" alt="">
-                        </span>
-                      </div>
-                    </div>
-  
-                    <p class="font-text-20 card-portfolio__content-block__text">
-                      Legal Tech
-                    </p>
-                  </div>
-  
-                  <p class="font-text-20 card-portfolio__content-text">
-                    Glavbankruptcy is a digital legal-tech platform that transforms a complex and high-risk personal bankruptcy procedure into a controlled, transparent, and guaranteed online process...
+
+              <div class="card-portfolio  card-portfolio__alt">
+                <div class="card-block__prew">
+                  <p class="font-heading-24 card-prew">
+                    Finance
                   </p>
                 </div>
-  
+
+                <div class="card-portfolio__img">
+                  <img src="src/img/card-portfolio__08.png" alt="">
+                </div>
+
+                <div class="card-portfolio__content">
+                  <div class="card-portfolio__content-head">
+                    <h3 class="card-portfolio__head-title font-heading-40">
+                      <span class="card-portfolio__title-img">
+                        <img src="src/img/finflow.svg" alt="">
+                      </span>
+                      FinFlow
+                    </h3>
+
+                    <div class="card-portfolio__head-grade">
+                      <span class="card-portfolio__grade-number font-heading-20">
+                        4.9
+                      </span>
+                      <span class="card-portfolio__grade-img">
+                        <img src="src/img/case-star.svg" alt="">
+                      </span>
+                    </div>
+                  </div>
+
+                  <p class="font-text-20 card-portfolio__content-text">
+                    FinFlow is a Telegram-native Web App that enables instant group expense management inside a familiar environment. Users split bills in seconds, assign custom shares, and see balances update in real time. By embedding finance into daily messaging instead of forcing standalone app usage, the product removed adoption friction and scaled transaction activity without increasing operational complexity.
+                  </p>
+                </div>
+
                 <div class="card-portfolio_block">
-                  <div class="card-portfolio_block-box">
-                    <span class="card-portfolio_box-title font-heading-28">
-                      3 days
-                    </span>
-                    <span class="card-portfolio_box-text font-heading-20">
-                      Case resolution
-                    </span>
+                  <div class="case-card__block-box">
+                    <div class="case-card__box-indicators">
+                      <span class="case-card__indicators-img">
+                        <img src="src/img/icon__14.svg" alt="">
+                      </span>
+                      <p class="case-card__indicators-text font-heading-28">
+                        +65
+                        <span>
+                          %
+                        </span>
+                      </p>
+                    </div>
+
+                    <p class="case-card__box-text font-heading-20">
+                      Expense Speed
+                    </p>
                   </div>
-                  <div class="card-portfolio_block-box">
-                    <span class="card-portfolio_box-title font-heading-28">
-                      36%
-                    </span>
-                    <span class="card-portfolio_box-text font-heading-20">
-                      more completed filings
-                    </span>
+                  <div class="case-card__block-box">
+                    <div class="case-card__box-indicators">
+                      <span class="case-card__indicators-img">
+                        <img src="src/img/icon__04.svg" alt="">
+                      </span>
+                      <p class="case-card__indicators-text font-heading-28">
+                        +55
+                        <span>
+                          %
+                        </span>
+                      </p>
+                    </div>
+
+                    <p class="case-card__box-text font-heading-20">
+                      Budget Consistency
+                    </p>
                   </div>
-                  <div class="card-portfolio_block-box">
-                    <span class="card-portfolio_box-title font-heading-28">
-                      $2.3M
-                    </span>
-                    <span class="card-portfolio_box-text font-heading-20">
-                      annual ops savings
-                    </span>
+                  <div class="case-card__block-box">
+                    <div class="case-card__box-indicators">
+                      <span class="case-card__indicators-img">
+                        <img src="src/img/icon__01.svg" alt="">
+                      </span>
+                      <p class="case-card__indicators-text font-heading-28">
+                        +45
+                        <span>
+                          %
+                        </span>
+                      </p>
+                    </div>
+
+                    <p class="case-card__box-text font-heading-20">
+                      User Retention
+                    </p>
                   </div>
                 </div>
               </div>
-  
-              <div class="card-portfolio card-other">
-                <div class="card-portfolio__img">
-                  <img src="" alt="">
-                </div>
-  
-                <div class="card-portfolio__content">
-                  <div class="card-portfolio__content-head">
-                    <div class="card-portfolio__content-block__head">
-                      <h3 class="card-portfolio__head-title font-heading-40">
-                        <span class="card-portfolio__title-img">
-                          <img src="src/img/card-port__img-1.svg" alt="">
-                        </span>
-                        Bill Split
-                      </h3>
-  
-                      <div class="card-portfolio__head-grade">
-                        <span class="card-portfolio__grade-number font-heading-20">
-                          4.4
-                        </span>
-                        <span class="card-portfolio__grade-img">
-                          <img src="src/img/case-star.svg" alt="">
-                        </span>
-                      </div>
-                    </div>
-  
-                    <p class="font-text-20 card-portfolio__content-block__text">
-                      Healthcare
-                    </p>
-                  </div>
-  
-                  <p class="font-text-20 card-portfolio__content-text">
-                    We built a scalable consumer product that eliminates financial disputes between people by automating calculations, debts, and multi-currency operations in real time...
+
+              <div class="card-portfolio  card-portfolio__alt">
+                <div class="card-block__prew">
+                  <p class="font-heading-24 card-prew">
+                    Finance
                   </p>
                 </div>
-  
+
+                <div class="card-portfolio__img">
+                  <img src="src/img/card-portfolio__09.png" alt="">
+                </div>
+
+                <div class="card-portfolio__content">
+                  <div class="card-portfolio__content-head">
+                    <h3 class="card-portfolio__head-title font-heading-40">
+                      <span class="card-portfolio__title-img">
+                        <img src="src/img/ruarant.svg" alt="">
+                      </span>
+                      Media Guarant
+                    </h3>
+
+                    <div class="card-portfolio__head-grade">
+                      <span class="card-portfolio__grade-number font-heading-20">
+                        4.9
+                      </span>
+                      <span class="card-portfolio__grade-img">
+                        <img src="src/img/case-star.svg" alt="">
+                      </span>
+                    </div>
+                  </div>
+
+                  <p class="font-text-20 card-portfolio__content-text">
+                    Telegram has become a marketplace. Deals are closed in chats. Payments are sent manually. Trust is assumed, not enforced. In high-risk P2P environments, this model breaks at scale. The task was to build a native escrow layer embedded directly into Telegram, without forcing users to leave the ecosystem.
+                  </p>
+                </div>
+
                 <div class="card-portfolio_block">
-                  <div class="card-portfolio_block-box">
-                    <span class="card-portfolio_box-title font-heading-28">
-                      3.8×
-                    </span>
-                    <span class="card-portfolio_box-text font-heading-20">
-                      payment volume
-                    </span>
+                  <div class="case-card__block-box">
+                    <div class="case-card__box-indicators">
+                      <span class="case-card__indicators-img">
+                        <img src="src/img/icon__15.svg" alt="">
+                      </span>
+                      <p class="case-card__indicators-text font-heading-28">
+                        $120M
+                      </p>
+                    </div>
+
+                    <p class="case-card__box-text font-heading-20">
+                      Pay Protected
+                    </p>
                   </div>
-                  <div class="card-portfolio_block-box">
-                    <span class="card-portfolio_box-title font-heading-28">
-                      97.2%
-                    </span>
-                    <span class="card-portfolio_box-text font-heading-20">
-                      payment success rate
-                    </span>
+                  <div class="case-card__block-box">
+                    <div class="case-card__box-indicators">
+                      <span class="case-card__indicators-img">
+                        <img src="src/img/icon__16.svg" alt="">
+                      </span>
+                      <p class="case-card__indicators-text font-heading-28">
+                        -83
+                        <span>
+                          %
+                        </span>
+                      </p>
+                    </div>
+
+                    <p class="case-card__box-text font-heading-20">
+                      Dispute Rate
+                    </p>
                   </div>
-                  <div class="card-portfolio_block-box">
-                    <span class="card-portfolio_box-title font-heading-28">
-                      12 sec
-                    </span>
-                    <span class="card-portfolio_box-text font-heading-20">
-                      Checkout
-                    </span>
+                  <div class="case-card__block-box">
+                    <div class="case-card__box-indicators">
+                      <span class="case-card__indicators-img">
+                        <img src="src/img/icon__17.svg" alt="">
+                      </span>
+                      <p class="case-card__indicators-text font-heading-28">
+                        -61
+                        <span>
+                          %
+                        </span>
+                      </p>
+                    </div>
+
+                    <p class="case-card__box-text font-heading-20">
+                      Fraud Reduced
+                    </p>
                   </div>
                 </div>
               </div>
-  
-              <div class="card-portfolio card-other">
-                <div class="card-portfolio__img">
-                  <img src="" alt="">
-                </div>
-  
-                <div class="card-portfolio__content">
-                  <div class="card-portfolio__content-head">
-                    <div class="card-portfolio__content-block__head">
-                      <h3 class="card-portfolio__head-title font-heading-40">
-                        <span class="card-portfolio__title-img">
-                          <img src="src/img/card-port__img-1.svg" alt="">
-                        </span>
-                        FinFlow
-                      </h3>
-  
-                      <div class="card-portfolio__head-grade">
-                        <span class="card-portfolio__grade-number font-heading-20">
-                          4.5
-                        </span>
-                        <span class="card-portfolio__grade-img">
-                          <img src="src/img/case-star.svg" alt="">
-                        </span>
-                      </div>
-                    </div>
-  
-                    <p class="font-text-20 card-portfolio__content-block__text">
-                      Healthcare
-                    </p>
-                  </div>
-  
-                  <p class="font-text-20 card-portfolio__content-text">
-                    New Telegram Web App that allows users to manage personal finances, analyze expenses and income, and make more informed financial decisions - without installing an application...
+
+              <div class="card-portfolio  card-portfolio__alt">
+                <div class="card-block__prew">
+                  <p class="font-heading-24 card-prew">
+                    Finance
                   </p>
                 </div>
-  
-                <div class="card-portfolio_block">
-                  <div class="card-portfolio_block-box">
-                    <span class="card-portfolio_box-title font-heading-28">
-                      10 min
-                    </span>
-                    <span class="card-portfolio_box-text font-heading-20">
-                      Reconciliation
-                    </span>
-                  </div>
-                  <div class="card-portfolio_block-box">
-                    <span class="card-portfolio_box-title font-heading-28">
-                      99.98%
-                    </span>
-                    <span class="card-portfolio_box-text font-heading-20">
-                      ledger accuracy
-                    </span>
-                  </div>
-                  <div class="card-portfolio_block-box">
-                    <span class="card-portfolio_box-title font-heading-28">
-                      2.5×
-                    </span>
-                    <span class="card-portfolio_box-text font-heading-20">
-                      finance team capacity
-                    </span>
-                  </div>
-                </div>
-              </div>
-  
-              <div class="card-portfolio card-other">
+
                 <div class="card-portfolio__img">
-                  <img src="" alt="">
+                  <img src="src/img/card-portfolio__10.png" alt="">
                 </div>
-  
+
                 <div class="card-portfolio__content">
                   <div class="card-portfolio__content-head">
-                    <div class="card-portfolio__content-block__head">
-                      <h3 class="card-portfolio__head-title font-heading-40">
-                        <span class="card-portfolio__title-img">
-                          <img src="src/img/card-port__img-1.svg" alt="">
-                        </span>
-                        Garant
-                      </h3>
-  
-                      <div class="card-portfolio__head-grade">
-                        <span class="card-portfolio__grade-number font-heading-20">
-                          4.8
-                        </span>
-                        <span class="card-portfolio__grade-img">
-                          <img src="src/img/case-star.svg" alt="">
-                        </span>
-                      </div>
+                    <h3 class="card-portfolio__head-title font-heading-40">
+                      <span class="card-portfolio__title-img">
+                        <img src="src/img/pilot.svg" alt="">
+                      </span>
+                      Pilot Freelancer
+                    </h3>
+
+                    <div class="card-portfolio__head-grade">
+                      <span class="card-portfolio__grade-number font-heading-20">
+                        4.9
+                      </span>
+                      <span class="card-portfolio__grade-img">
+                        <img src="src/img/case-star.svg" alt="">
+                      </span>
                     </div>
-  
-                    <p class="font-text-20 card-portfolio__content-block__text">
-                      Insur Tech
-                    </p>
                   </div>
-  
+
                   <p class="font-text-20 card-portfolio__content-text">
-                    The platform acts as an independent guarantor, automating transactions and protecting both buyers and sellers in P2P deals, digital services, and online goods ...
+                    Pilot Freelancer is an international aviation hiring infrastructure that transforms fragmented workflows into a structured compliance system.The digitisation of verification and contract workflows reduces hiring latency and regulatory exposure, enabling operators to scale up without increasing operational overhead.
                   </p>
                 </div>
-  
+
                 <div class="card-portfolio_block">
-                  <div class="card-portfolio_block-box">
-                    <span class="card-portfolio_box-title font-heading-28">
-                      $120M
-                    </span>
-                    <span class="card-portfolio_box-text font-heading-20">
-                      transactions protected
-                    </span>
-                  </div>
-                  <div class="card-portfolio_block-box">
-                    <span class="card-portfolio_box-title font-heading-28">
-                      0.4%
-                    </span>
-                    <span class="card-portfolio_box-text font-heading-20">
-                      Disputes
-                    </span>
-                  </div>
-                  <div class="card-portfolio_block-box">
-                    <span class="card-portfolio_box-title font-heading-28">
-                      44%
-                    </span>
-                    <span class="card-portfolio_box-text font-heading-20">
-                      higher checkout trust
-                    </span>
-                  </div>
-                </div>
-              </div>
-  
-              <div class="card-portfolio card-other">
-                <div class="card-portfolio__img">
-                  <img src="" alt="">
-                </div>
-  
-                <div class="card-portfolio__content">
-                  <div class="card-portfolio__content-head">
-                    <div class="card-portfolio__content-block__head">
-                      <h3 class="card-portfolio__head-title font-heading-40">
-                        <span class="card-portfolio__title-img">
-                          <img src="src/img/card-port__img-1.svg" alt="">
+                  <div class="case-card__block-box">
+                    <div class="case-card__box-indicators">
+                      <span class="case-card__indicators-img">
+                        <img src="src/img/icon__03.svg" alt="">
+                      </span>
+                      <p class="case-card__indicators-text font-heading-28">
+                        -62
+                        <span>
+                          %
                         </span>
-                        Pilot Freelancer
-                      </h3>
-  
-                      <div class="card-portfolio__head-grade">
-                        <span class="card-portfolio__grade-number font-heading-20">
-                          4.7
-                        </span>
-                        <span class="card-portfolio__grade-img">
-                          <img src="src/img/case-star.svg" alt="">
-                        </span>
-                      </div>
+                      </p>
                     </div>
-  
-                    <p class="font-text-20 card-portfolio__content-block__text">
-                      B2B SaaS
+
+                    <p class="case-card__box-text font-heading-20">
+                      Time to Hire
                     </p>
                   </div>
-  
-                  <p class="font-text-20 card-portfolio__content-text">
-                    We built a scalable B2B platform that connects airlines, charter operators, and certified aviation professionals (pilots, cabin crew, technical staff) within a single digital ecosystem...
-                  </p>
-                </div>
-  
-                <div class="card-portfolio_block">
-                  <div class="card-portfolio_block-box">
-                    <span class="card-portfolio_box-title font-heading-28">
-                      2.9×
-                    </span>
-                    <span class="card-portfolio_box-text font-heading-20">
-                      RETENTION
-                    </span>
+                  <div class="case-card__block-box">
+                    <div class="case-card__box-indicators">
+                      <span class="case-card__indicators-img">
+                        <img src="src/img/icon__07.svg" alt="">
+                      </span>
+                      <p class="case-card__indicators-text font-heading-28">
+                        +49
+                        <span>
+                          %
+                        </span>
+                      </p>
+                    </div>
+
+                    <p class="case-card__box-text font-heading-20">
+                      Math Accuracy
+                    </p>
                   </div>
-                  <div class="card-portfolio_block-box">
-                    <span class="card-portfolio_box-title font-heading-28">
-                      24 h
-                    </span>
-                    <span class="card-portfolio_box-text font-heading-20">
-                      Hiring in
-                    </span>
-                  </div>
-                  <div class="card-portfolio_block-box">
-                    <span class="card-portfolio_box-title font-heading-28">
-                      49%
-                    </span>
-                    <span class="card-portfolio_box-text font-heading-20">
-                      match accuracy lift
-                    </span>
+                  <div class="case-card__block-box">
+                    <div class="case-card__box-indicators">
+                      <span class="case-card__indicators-img">
+                        <img src="src/img//icon__08.svg" alt="">
+                      </span>
+                      <p class="case-card__indicators-text font-heading-28">
+                        +291
+                        <span>
+                          %
+                        </span>
+                      </p>
+                    </div>
+
+                    <p class="case-card__box-text font-heading-20">
+                      User Retention
+                    </p>
                   </div>
                 </div>
               </div>
@@ -1303,14 +1680,12 @@
             
           </div>
         </div>
-        
       </section>
-
 
       <!-- contianer-consultation -->
       <section class="section-consultation">
         <div class="_container">
-          <div class="contianer-consultation">
+          <div class="contianer-consultation__alt">
             <form action="" class="consultation-form">
               <div class="consultation-form__content">
                 <div class="consultation-form__box">
@@ -1336,7 +1711,7 @@
                 </div>
   
                 <label for="" class="font-heading-20 def-form__box-label">
-                  What do you want to develop?
+                  About your project
                   <textarea name="" id="" class="font-text-20 consultation-textarea" placeholder="Example: Mobile app for fitness tracking with AI recommendations" ></textarea>
                 </label>
               </div>
@@ -1417,10 +1792,43 @@
     </main>
   
     <footer>
+      <div class="footer footer-container">
+        <p class="footer-logo footer-container__item">
+          FORFIS
+        </p>
+
+        <a href="mailto:send@forfis.com" class="footer-container__item footer-container__item-link font-text-16">
+          send@forfis.com
+        </a>
+
+        <div class="social-icon footer-container__item">
+          <a href="" class="social-icon__item">
+            <img src="src/img/linkedin.svg" alt="">
+          </a>
+          <a href="" class="social-icon__item">
+            <img src="src/img/telegram.svg" alt="">
+          </a>
+          <a href="" class="social-icon__item">
+            <img src="src/img/facebook.svg" alt="">
+          </a>
+          <a href="" class="social-icon__item">
+            <img src="src/img/instagram.svg" alt="">
+          </a>
+          <a href="" class="social-icon__item">
+            <img src="src/img/twitter.svg" alt="">
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-down">
+        <p class="font-heading-24">
+          © 2020 Forfis. All rights reserved.
+        </p>
+      </div>
     </footer>
   </div>
 
+    <script src="src/js/burger__menu.js"></script>
   <script src="src/js/drag__scroll.js"></script>
-  
 </body>
 </html>

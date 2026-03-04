@@ -31,9 +31,16 @@ header {
 }
 .header-item__link {
 }
-.header-block__btn {
+.header-lang {
+  width: 6.2rem;
+  height: 4rem;
+}
+
+.mobile-flex {
   @media (max-width: 767px) {
-    display: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
   }
 }
 

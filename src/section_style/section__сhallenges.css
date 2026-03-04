@@ -3,6 +3,12 @@
   grid-template-columns: repeat(3, 1fr);
 
   margin-top: 6.4rem;
+
+  @media (max-width: 767px) {
+    grid-template-columns: repeat(1, 1fr);
+
+    margin-top: 3.2rem;
+  }
 }
 .card-challenges {
   display: flex;
@@ -20,6 +26,25 @@
 
   &:nth-last-child(-n + 3) {
     border-bottom: none;
+  }
+
+  @media (max-width: 767px) {
+    border-right: none;
+    align-items: center;
+    text-align: center;
+    padding: 2.4rem 1.6rem;
+
+    gap: 2.4rem;
+
+    border-bottom: 0.1rem solid var(--color-stroke-light);
+
+    &:nth-last-child(-n + 3) {
+      border-bottom: 0.1rem solid var(--color-stroke-light);
+    }
+
+    &:last-child {
+      border-bottom: none;
+    }
   }
 }
 .card-challenges__img {
