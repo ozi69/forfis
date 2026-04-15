@@ -134,9 +134,10 @@
   border-radius: 2.4rem;
   overflow: hidden;
   will-change: transform;
+  transform: translate(-50%, -50%);
 
   @media (max-width: 767px) {
-    margin-top: 91rem;
+    margin-top: 1000px;
 
     height: 27rem;
     width: 14rem;
